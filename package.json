@@ -1,0 +1,14 @@
+{
+  "name": "homepage",
+  "version": "6.0.5",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justinjaywang/homepage.git"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.3",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

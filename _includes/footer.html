@@ -1,0 +1,21 @@
+<footer class="footer container">
+  {% if page.layout == 'work' %}
+    <span class="faded--lightest">Filed under: </span>
+    {% if page.tags %}
+      <ul class="work-tags">
+        {% for page_tag in page.tags %}
+          {% for site_tag in site.work_tags %}
+            {% if site_tag.title == page_tag %}
+              <li class="work-tag"><a href="{{ site_tag.url }}">{{ site_tag.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        {% endfor %}
+      </ul>
+    {% endif %}
+
+  {% else %}
+    {{ page.footer | default: site.footer | markdownify }}
+
+  {% endif %}
+</footer>
+

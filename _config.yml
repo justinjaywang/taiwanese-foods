@@ -1,0 +1,57 @@
+title: Foods from Taiwan
+timezone: America/Los_Angeles
+url: http://fftw.justinjay.wang
+description: A (pinyin) alphabet book celebrating foods from Taiwan
+collections:
+  posts:
+    title: Posts
+    output: false
+  uploads:
+    title: Uploads
+    output: true
+  foods:
+    title: Foods
+    output: false
+defaults:
+- scope:
+    path: ''
+  values:
+    layout: page
+- scope:
+    path: ''
+    type: posts
+  values:
+    layout: page
+permalink: pretty
+exclude:
+- Gemfile
+- Gemfile.lock
+- README*
+- '.gitignore'
+- package.json
+- node_modules
+- Gruntfile.js
+gems:
+- jekyll-sitemap
+- jekyll-redirect-from
+- jekyll-seo-tag
+logo: /assets/images/avatar.png
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: true
+highlighter: rouge
+excerpt_separator: |2+
+
+
+
+sass:
+  sass_dir: assets/styles/
+  style: compressed
+repository: justinjaywang/foods-from-taiwan
+google_analytics: 
+header:
+- text: Home
+  link: /
+- text: Browse all
+  link: /all/

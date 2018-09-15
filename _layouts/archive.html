@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+{% assign foods = site.data.foods %}
+
+{% for food in foods %}
+  {{ food.letter }}
+{% endfor %}
+
+<div class="container">
+  Hello world, archive layout
+</div>

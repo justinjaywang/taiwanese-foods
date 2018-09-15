@@ -1,0 +1,12 @@
+// Blazy
+
+.js {
+  .js-lazy {
+    opacity: 0;
+    transition: opacity 0.4s; // TO DO: make sure autoprefixed
+  }
+
+  .js-post-lazy-loaded {
+    opacity: 1;
+  }
+}

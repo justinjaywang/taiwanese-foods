@@ -1,0 +1,42 @@
+// Typography
+
+$font-size--html:    24px;
+$font-size--html-md: 20px;
+
+$font-size--larger: 3.333333em;
+$font-size--large:  2.5em;
+$font-size--normal: 1em;
+$font-size--small:  0.75em;
+
+$font-family--body: "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+
+$line-height--normal: 28 / 24;
+$line-height--tight:  1;
+
+// Sizing & Spacing
+
+$v: $line-height--normal * 1rem;
+
+// Grid
+
+$max-width--container:         1680px;
+$max-width--container--narrow: 36rem;
+
+// xs | sm | md | lg | xl
+$bp-xs-sm: 576px;// 576px;  // 36rem;
+$bp-sm-md: 864px;// 864px;  // 54rem;
+$bp-md-lg: 1152px;// 1152px; // 72rem;
+$bp-lg-xl: 1440px;// 1440px; // 90rem;
+
+$g:               $v*0.8;
+$outer-gutter:    $g;
+$outer-gutter-sm: $g*0.833333;
+$gutter:          $g;
+$gutter-sm:       $g*0.833333;
+
+$padding-top--nav:    $outer-gutter*0.833333;
+$padding-top--nav-sm: $outer-gutter-sm*0.833333;
+
+// Miscellaneous
+
+$duration--normal: 0.15s;

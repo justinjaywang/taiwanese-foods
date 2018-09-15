@@ -1,0 +1,48 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: $font-size--html;
+  @media (max-width: $bp-sm-md) {
+    font-size: $font-size--html-md;
+  }
+}
+
+body {
+  font-size: $font-size--normal;
+  font-family: $font-family--body;
+  line-height: $line-height--normal;
+  // -webkit-font-smoothing: antialiased;
+  // -font-smoothing: antialiased;
+  // -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+img,
+video,
+iframe {
+  width: 100%;
+}
+
+img,
+video {
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+em,
+i {
+  font-style: italic;
+}
+
+u {
+  text-decoration-line: underline;
+}
