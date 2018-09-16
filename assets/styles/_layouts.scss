@@ -20,3 +20,10 @@
   @include contain;
   background-color: $color--fg;
 }
+
+svg path {
+  fill: none;
+  stroke: #f55;
+  stroke-width: 3px;
+  vector-effect: non-scaling-stroke;
+}
