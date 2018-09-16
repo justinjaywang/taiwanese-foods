@@ -42,6 +42,7 @@ video {
 }
 
 svg {
+  height: 6em;
   max-height: 134px; // size of actual asset, and exact height for 60px font-size
 }
 
@@ -93,13 +94,16 @@ h1,
   font-size: $font-size--largest;
   line-height: $line-height--tight;
   @media (max-width: $bp-xs-sm) {
-    font-size: $font-size--larger;
+    font-size: $font-size--largest-sm;
   }
 }
 
 h2,
 %h2 {
   font-size: $font-size--larger;
+  @media (max-width: $bp-xs-sm) {
+    font-size: $font-size--larger-sm;
+  }
 }
 
 h3,

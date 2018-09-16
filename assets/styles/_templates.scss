@@ -3,11 +3,6 @@
   padding-bottom: $v*0.75;
   @extend %h5;
   position: fixed;
-  transition: background-color $duration--normal, box-shadow $duration--normal;
-  &:hover {
-    background-color: $color--bg;
-    box-shadow: 0 0 10px rgba(0,0,0,0.12);
-  }
 }
 
 .header__items {
@@ -41,11 +36,25 @@
     padding-bottom: 360px;
   }
   @include contain;
-  background-color: $color--accent;
+  background-color: $color--image-bg;
+}
+
+.food-post__header {
+  @include flex;
 }
 
 .food-post__title {
   display: inline;
+}
+
+.food-post svg {
+  position: relative;
+  top: 0.45em;
+  left: -0.1em;
+}
+
+.food-post__header__letter {
+  margin-right: $gutter;
 }
 
 .chinese {
@@ -66,8 +75,4 @@
   height: 0;
   padding-bottom: 100%;
   @include contain;
-}
-
-.food-card svg {
-  height: 6em;
 }
