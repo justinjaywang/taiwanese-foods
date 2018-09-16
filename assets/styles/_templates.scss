@@ -54,9 +54,9 @@
   }
   @include contain;
   background-color: $color--image-bg;
-  margin-bottom: $v*3;
-  @media (max-width: $bp-md-lg) {
-    margin-bottom: $v*2;
+  margin-bottom: $v*2;
+  @media (max-width: $bp-xs-sm) {
+    margin-bottom: $v*1.5;
   }
 }
 
