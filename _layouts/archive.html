@@ -2,12 +2,7 @@
 layout: default
 ---
 
-{% assign foods = site.foods %}
-
+{% assign foods = site.foods | sort: 'position' %}
 {% for food in foods %}
-  {{ food.title }}
+  {% include food-card.html %}
 {% endfor %}
-
-<div class="container">
-  Hello world, archive layout
-</div>

@@ -21,6 +21,10 @@
   background-color: $color--fg;
 }
 
+svg {
+  max-height: 134px; // size of actual asset, and exact height for 60px font-size
+}
+
 svg path {
   fill: none;
   stroke: #f55;
