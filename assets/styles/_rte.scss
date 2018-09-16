@@ -11,4 +11,7 @@
   p {
     margin-bottom: $v;
   }
+  a {
+    @extend %underlined;
+  }
 }

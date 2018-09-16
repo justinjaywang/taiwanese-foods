@@ -7,6 +7,11 @@
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1;
+}
+
+.header a {
+  @extend %underline;
 }
 
 .header__items {
@@ -16,11 +21,16 @@
 
 .footer {
   max-width: 1280px;
-  margin-top: $v*6;
+  margin-top: $v*3;
   padding-bottom: $v*3;
 }
 
+.footer a {
+  @extend %underline;
+}
+
 .footer__section {
+  margin-top: $v*0.5;
   margin-bottom: $v;
 }
 
@@ -33,14 +43,21 @@
 }
 
 .main--homepage__header {
-  margin-top: $v*6;
-  margin-bottom: $v*4.5;
+  margin-top: $v*7;
+  margin-bottom: $v*5;
+  @media (max-width: $bp-sm-md) {
+    margin-top: $v*6;
+  }
 }
 
 .main--homepage__header__title {
   max-width: 42em;
   text-align: center;
-  margin-bottom: $v*4.5;
+  margin-bottom: $v*5;
+}
+
+.food-posts {
+  margin-bottom: $v*9; 
 }
 
 .food-post__banner {
@@ -70,7 +87,7 @@
 }
 
 .food-post__footer {
-  margin-bottom: $v*4.5;
+  margin-bottom: $v*5;
 }
 
 .food-post__title {
@@ -97,6 +114,12 @@
   margin-bottom: $v*0.75;
   &:first-of-type {
     margin-top: $v*0.75;
+  }
+}
+
+.food-post__link:hover {
+  .food-post__link__title {
+    text-decoration: underline;
   }
 }
 

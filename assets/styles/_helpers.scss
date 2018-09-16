@@ -3,6 +3,18 @@
   text-transform: uppercase;
 }
 
+.underline,
+%underline {
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.underlined,
+%underlined {
+  text-decoration: underline;
+}
+
 .block {
   display: block;
 }
