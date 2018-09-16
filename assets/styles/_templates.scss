@@ -1,6 +1,13 @@
 .header {
+  padding-top: $v*0.75;
+  padding-bottom: $v*0.75;
   @extend %h5;
   position: fixed;
+  transition: background-color $duration--normal, box-shadow $duration--normal;
+  &:hover {
+    background-color: $color--bg;
+    box-shadow: 0 0 10px rgba(0,0,0,0.12);
+  }
 }
 
 .header__items {
@@ -34,11 +41,11 @@
     padding-bottom: 360px;
   }
   @include contain;
-  background-color: $color--fg;
+  background-color: $color--accent;
 }
 
 .food-post__title {
-  display: inline-block;
+  display: inline;
 }
 
 .chinese {

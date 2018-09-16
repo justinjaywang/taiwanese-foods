@@ -28,7 +28,7 @@ body {
   background: $color--bg;
 }
 
-@include selection($color--selection, $color--fg);
+@include selection($color--accent, $color--fg);
 
 img,
 video,
@@ -92,6 +92,9 @@ h1,
 %h1 {
   font-size: $font-size--largest;
   line-height: $line-height--tight;
+  @media (max-width: $bp-xs-sm) {
+    font-size: $font-size--larger;
+  }
 }
 
 h2,
