@@ -27,11 +27,12 @@ $line-height--tight:  1;
 
 // Sizing & Spacing
 
-$v: $line-height--normal * 1rem;
+$v:     $line-height--normal * 1em;
+$v-rem: $line-height--normal * 1rem;
 
 // Grid
 
-$max-width--container:         1680px;
+$max-width--container--wide:   1680px;
 $max-width--container--narrow: 30rem;
 
 // xs | sm | md | lg | xl
@@ -40,12 +41,9 @@ $bp-sm-md: 864px;// 864px;  // 54rem;
 $bp-md-lg: 1152px;// 1152px; // 72rem;
 $bp-lg-xl: 1440px;// 1440px; // 90rem;
 
-$g:               $v*0.8;
+$g:               $v-rem * 0.8;
 $outer-gutter:    $g;
 $gutter:          $g;
-
-$padding-top--nav:    $outer-gutter*0.833333;
-$padding-top--nav-sm: $outer-gutter-sm*0.833333;
 
 // Miscellaneous
 

@@ -1,6 +1,6 @@
 ---
 title: c
-pinyin: cōngyóubǐng
+pinyin: cōng yóu bǐng
 chinese: 蔥油餅
 resources: 
 - text: New York Times Recipe

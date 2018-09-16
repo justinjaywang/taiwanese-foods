@@ -1,11 +1,15 @@
 .container,
 %container {
   width: 100%;
-  max-width: $max-width--container;
   margin-left: auto;
   margin-right: auto;
   padding-left: $outer-gutter;
   padding-right: $outer-gutter;
+}
+
+.container--wide {
+  @extend %container;
+  max-width: $max-width--container--wide;
 }
 
 .container--narrow {

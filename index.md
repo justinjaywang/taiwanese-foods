@@ -5,7 +5,7 @@ layout: homepage
 
 #### The pinyin alphabet
 
-Pinyin, also called the Chinese Phonetic Alphabet, is the official romanization system for standard Mandarin Chinese. The alphabet's twenty-one initial letters are presented here, each with a corresponding Taiwanese food.
+Pinyin, also called the Chinese Phonetic Alphabet, is the official romanization system for Mandarin Chinese. The alphabet's 21 initial letters are presented here, each with a corresponding Taiwanese food.
 
 #### The featured foods
 

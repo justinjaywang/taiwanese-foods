@@ -2,13 +2,13 @@
   <hr>
   <div class="row">
     <div class="footer__section col col-3 xs-col-12">
-      <h5>A project by</h5>
+      <h5 class="footer__section__title">A project by</h5>
       <div class="small">
         <a href="https://justinjay.wang">Justin Jay Wang</a>
       </div>
     </div>
     <div class="footer__section col col-3 xs-col-12">
-      <h5>Pinyin Resources</h5>
+      <h5 class="footer__section__title">Pinyin Resources</h5>
       <ul class="small">
         {% for item in site.data.pinyin %}
           <li><a href="{{ item.link }}">{{ item.text }}</a></li>
@@ -16,7 +16,7 @@
       </ul>
     </div>
     <div class="footer__section col col-3 xs-col-12">
-      <h5>More on Taiwanese Food</h5>
+      <h5 class="footer__section__title">More on Taiwanese Food</h5>
       <ul class="small">
         {% for item in site.data.food %}
           <li><a href="{{ item.link }}">{{ item.text }}</a></li>
@@ -24,11 +24,10 @@
       </ul>
     </div>
     <div class="footer__section col col-3 xs-col-12">
-      <h5>Thanks for stopping by</h5>
+      <h5 class="footer__section__title">Thanks for stopping by</h5>
       <div class="small">
         Please share with your friends if you enjoyed this
       </div>
     </div>
   </div>
 </footer>
-

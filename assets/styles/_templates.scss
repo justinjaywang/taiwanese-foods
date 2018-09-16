@@ -1,8 +1,12 @@
 .header {
-  padding-top: $v*0.75;
-  padding-bottom: $v*0.75;
+  padding-top: $v;
+  padding-bottom: $v;
   @extend %h5;
   position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .header__items {
@@ -12,18 +16,31 @@
 
 .footer {
   max-width: 1280px;
+  margin-top: $v*6;
+  padding-bottom: $v*3;
 }
 
 .footer__section {
+  margin-bottom: $v;
+}
+
+.footer__section__title {
+  margin-bottom: $v*0.333333;
 }
 
 .main {
   display: block;
 }
 
-.title {
+.main--homepage__header {
+  margin-top: $v*6;
+  margin-bottom: $v*4.5;
+}
+
+.main--homepage__header__title {
   max-width: 42em;
   text-align: center;
+  margin-bottom: $v*4.5;
 }
 
 .food-post__banner {
@@ -37,10 +54,23 @@
   }
   @include contain;
   background-color: $color--image-bg;
+  margin-bottom: $v*3;
+  @media (max-width: $bp-md-lg) {
+    margin-bottom: $v*2;
+  }
 }
 
 .food-post__header {
   @include flex;
+  margin-bottom: $v*1.5;
+}
+
+.food-post__body {
+  margin-bottom: $v*2;
+}
+
+.food-post__footer {
+  margin-bottom: $v*4.5;
 }
 
 .food-post__title {
@@ -51,10 +81,21 @@
   position: relative;
   top: 0.45em;
   left: -0.1em;
+  @media (max-width: $bp-sm-md) {
+    top: 0.35em;
+  }
 }
 
 .food-post__header__letter {
   margin-right: $gutter;
+}
+
+.food-post__link {
+  display: block;
+  margin-bottom: $v*0.75;
+  &:first-of-type {
+    margin-top: $v*0.75;
+  }
 }
 
 .chinese {
