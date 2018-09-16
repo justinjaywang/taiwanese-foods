@@ -1,7 +1,7 @@
 ---
 title: b
-pinyin: bōbà nǎichá
-chinese: 波霸奶茶
+pinyin: bōbà
+chinese: 波霸
 resources: 
 - text: New York Times Recipe
   link: https://www.nytimes.com

@@ -41,6 +41,24 @@ video {
   height: auto;
 }
 
+svg {
+  max-height: 134px; // size of actual asset, and exact height for 60px font-size
+}
+
+svg path {
+  fill: none;
+  stroke: #f55;
+  stroke-width: 3px;
+  vector-effect: non-scaling-stroke;
+}
+
+hr {
+  border: 0;
+  border-top: 3px solid currentColor;
+  margin-top: $v*0.5;
+  margin-bottom: $v*0.5;
+}
+
 a {
   text-decoration: none;
   color: inherit;
@@ -53,4 +71,53 @@ i {
 
 u {
   text-decoration-line: underline;
+}
+
+h1,
+%h1,
+h2,
+%h2,
+h3,
+%h3,
+h4,
+%h4,
+h5,
+%h5,
+h6,
+%h6 {
+  @extend %uppercase;
+}
+
+h1,
+%h1 {
+  font-size: $font-size--largest;
+  line-height: $line-height--tight;
+}
+
+h2,
+%h2 {
+  font-size: $font-size--larger;
+}
+
+h3,
+%h3 {
+  font-size: $font-size--large;
+}
+
+h4,
+%h4 {
+  font-size: $font-size--normal;
+}
+
+h5,
+%h5,
+h6,
+%h6 {
+  font-size: $font-size--small;
+}
+
+small,
+.small,
+%small {
+  font-size: $font-size--small;
 }

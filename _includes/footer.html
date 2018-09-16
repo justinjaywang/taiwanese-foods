@@ -1,21 +1,34 @@
 <footer class="footer container">
-  {% if page.layout == 'work' %}
-    <span class="faded--lightest">Filed under: </span>
-    {% if page.tags %}
-      <ul class="work-tags">
-        {% for page_tag in page.tags %}
-          {% for site_tag in site.work_tags %}
-            {% if site_tag.title == page_tag %}
-              <li class="work-tag"><a href="{{ site_tag.url }}">{{ site_tag.title }}</a></li>
-            {% endif %}
-          {% endfor %}
+  <hr>
+  <div class="row">
+    <div class="footer__section col col-3 xs-col-12">
+      <h5>A project by</h5>
+      <div class="small">
+        <a href="https://justinjay.wang">Justin Jay Wang</a>
+      </div>
+    </div>
+    <div class="footer__section col col-3 xs-col-12">
+      <h5>Pinyin Resources</h5>
+      <ul class="small">
+        {% for item in site.data.pinyin %}
+          <li><a href="{{ item.link }}">{{ item.text }}</a></li>
         {% endfor %}
       </ul>
-    {% endif %}
-
-  {% else %}
-    {{ page.footer | default: site.footer | markdownify }}
-
-  {% endif %}
+    </div>
+    <div class="footer__section col col-3 xs-col-12">
+      <h5>More on Taiwanese Food</h5>
+      <ul class="small">
+        {% for item in site.data.food %}
+          <li><a href="{{ item.link }}">{{ item.text }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="footer__section col col-3 xs-col-12">
+      <h5>Thanks for stopping by</h5>
+      <div class="small">
+        Please share with your friends if you enjoyed this
+      </div>
+    </div>
+  </div>
 </footer>
 

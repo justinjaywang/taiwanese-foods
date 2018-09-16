@@ -1,2 +1,4 @@
-- text: 
-  link: 
+- text: One Link
+  link: http://google.com
+- text: Another Link
+  link: https://justinjay.wang

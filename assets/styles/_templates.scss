@@ -1,0 +1,56 @@
+.header {
+  @extend %h5;
+  position: fixed;
+}
+
+.header__items {
+  @include flex;
+  @include justify-content(space-between);
+}
+
+.footer {
+  max-width: 1280px;
+}
+
+.footer__section {
+}
+
+.main {
+  display: block;
+}
+
+.title {
+  max-width: 42em;
+  text-align: center;
+}
+
+.food-post__banner {
+  height: 0;
+  padding-bottom: 720px;
+  @media (max-width: 1280px) {
+    padding-bottom: 56.25%; // 9/16
+  }
+  @media (max-width: 640px) {
+    padding-bottom: 360px;
+  }
+  @include contain;
+  background-color: $color--fg;
+}
+
+.food-card {
+  text-align: center;
+}
+
+.food-post__title {
+  display: inline-block;
+}
+
+.chinese {
+  display: inline-block;
+  &:before {
+    content: '(';
+  }
+  &:after {
+    content: ')';
+  }
+}
