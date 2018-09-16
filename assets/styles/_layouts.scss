@@ -7,3 +7,9 @@
 .main {
   display: block;
 }
+
+.food-post__banner {
+  padding-bottom: 500px;
+  @include contain;
+  background-color: $color--fg;
+}

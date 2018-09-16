@@ -2,10 +2,10 @@
 layout: default
 ---
 
-{% assign foods = site.data.foods %}
+{% assign foods = site.foods %}
 
 {% for food in foods %}
-  {{ food.letter }}
+  {{ food.title }}
 {% endfor %}
 
 <div class="container">

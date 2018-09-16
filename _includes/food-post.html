@@ -1,19 +1,31 @@
-<div class="showcase js-showcase">
-  {% for work_title in page.showcase %}
-    {% assign work = site.work | where_exp: 'work', 'work.title == work_title' | first %}
-    <figure class="showcase-item{% if forloop.first %} showcase-item--active{% endif %} js-showcase-item js-lazy js-manual-lazy" data-src="{{ work.showcase }}" data-title="{{ work.title }}" style="background-image: url('{{ work.showcase }}')"></figure>
-  {% endfor %}
-</div>
-<div class="showcase-captions">
-  {% for work_title in page.showcase %}
-    {% assign work = site.work | where_exp: 'work', 'work.title == work_title' | first %}
-    <div class="row">
-      <div class="col col-6 xs-col-12 ml-auto">
-        <div class="showcase-caption{% if forloop.first %} showcase-caption--active{% endif %} js-showcase-caption">
-          {% include work-preview.html work=work %}
-          <span class="showcase__count">{{ forloop.index }}/{{ page.showcase.size }}</span>
-        </div>
-      </div>
+{% assign letter = food.title %}
+<div class="food-post">
+  <div class="food-post__banner" style="background-image: url('/uploads/{{ letter }}.png')"></div>
+
+  <div class="container container--narrow">
+    <header class="food-post__header">
+      {% include letters/{{ letter }}.svg %}
+      <h2>
+        is for<br>
+        {{ food.pinyin }}
+        <small>{{ food.chinese }}</small>
+      </h2>
+    </header>
+
+    <div class="food-post__body rte">
+      {{ food.content | markdownify }}
     </div>
-  {% endfor %}
+    
+    {% if food.resources.size > 0 %}
+      <footer class="food-post__footer">
+        <h4>See also</h4>
+        {% for resource in food.resources %}
+          {% assign pretty_link = resource.link | split: '://' | last | remove: 'www.' %}
+          {{ resource.text }}
+          {{ pretty_link }}
+        {% endfor %}
+      </footer>
+    {% endif %}
+    </div>
+  </div>
 </div>

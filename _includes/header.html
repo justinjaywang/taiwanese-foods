@@ -1,18 +1,9 @@
-<header class="header">
-  <nav class="nav">
-    <div class="container">
-      <div class="row">
-        <div class="col col-6 xs-col-12">
-          <a href="/">{{ site.title }}</a>
-        </div>
-        {% capture nav__items %}
-          <ul class="nav__items col col-6 xs-col-12{% for item in site.nav.header %}{% if page.url contains item.link %} nav__items--in-nav{% endif %}{% endfor %}">
-            {% for item in site.nav.header %}
-              <li class="inline nav__item"><a href="{{ item.link }}" class="nav__link{% if page.url contains item.link %} nav__link--active{% endif %}">{{ item.text }}</a></li>
-            {% endfor %}
-          </ul>
-        {% endcapture %}{{ nav__items | normalize_whitespace | replace: '> <', '><' }}
-      </div>
-    </div>
-  </nav>
+<header class="header container">
+  <ul class="header__items">
+    {% for item in site.header %}
+      <li class="header__item">
+        <a href="{{ item.link }}">{{ item.text }}</a>
+      </li>
+    {% endfor %}
+  </ul>
 </header>

@@ -1,8 +1,8 @@
 // Colors
 
 $color--bg: #fff;
-$color--fg: #f55;
-$color--selection: #ff5;
+$color--fg: #f44;
+$color--selection: #ff4;
 
 // Typography
 
@@ -28,7 +28,7 @@ $v: $line-height--normal * 1rem;
 // Grid
 
 $max-width--container:         1680px;
-$max-width--container--narrow: 36rem;
+$max-width--container--narrow: 30rem;
 
 // xs | sm | md | lg | xl
 $bp-xs-sm: 576px;// 576px;  // 36rem;
