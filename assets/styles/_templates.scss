@@ -37,10 +37,6 @@
   background-color: $color--fg;
 }
 
-.food-card {
-  text-align: center;
-}
-
 .food-post__title {
   display: inline-block;
 }
@@ -53,4 +49,18 @@
   &:after {
     content: ')';
   }
+}
+
+.food-card {
+  text-align: center;
+}
+
+.food-card__image {
+  height: 0;
+  padding-bottom: 100%;
+  @include contain;
+}
+
+.food-card svg {
+  height: 6em;
 }

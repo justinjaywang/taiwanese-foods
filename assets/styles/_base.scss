@@ -47,14 +47,14 @@ svg {
 
 svg path {
   fill: none;
-  stroke: #f55;
-  stroke-width: 3px;
+  stroke: currentColor;
+  stroke-width: $stroke;
   vector-effect: non-scaling-stroke;
 }
 
 hr {
   border: 0;
-  border-top: 3px solid currentColor;
+  border-top: $stroke solid currentColor;
   margin-top: $v*0.5;
   margin-bottom: $v*0.5;
 }
