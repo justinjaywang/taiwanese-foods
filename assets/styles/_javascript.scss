@@ -3,7 +3,7 @@
 .js {
   .js-lazy {
     opacity: 0;
-    transition: opacity 0.4s; // TO DO: make sure autoprefixed
+    transition: opacity $duration--normal;
   }
 
   .js-post-lazy-loaded {

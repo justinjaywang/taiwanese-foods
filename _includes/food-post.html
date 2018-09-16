@@ -1,6 +1,10 @@
 {% assign letter = food.title %}
 <div class="food-post">
-  <div class="food-post__banner" style="background-image: url('/uploads/{{ letter }}.png')"></div>
+  <div class="food-post__banner-wrap">
+    <div class="food-post__banner js-lazy" 
+      style="background-image: url('/uploads/{{ letter }}.png')" 
+      data-src="/uploads/{{ letter }}.png"></div>
+  </div>
 
   <div class="container container--narrow">
     
@@ -10,7 +14,7 @@
       </div>
       <div>
         <h2 class="food-post__title">is for<br>{{ food.pinyin }}</h2>
-        <span class="chinese"><a href="https://translate.google.com/#zh-CN/en/{{ food.chinese }}" target="_blank" class="underline">{{ food.chinese }}</a></span>
+        <span class="chinese inline-block mtv0-5"><a href="https://translate.google.com/#zh-CN/en/{{ food.chinese }}" target="_blank" class="underline">{{ food.chinese }}</a></span>
       </div>
     </header>
 

@@ -6,12 +6,14 @@
     </div>
 
     <div class="food-card__item food-card__item--title">
-      <h3>is for<br>{{ food.pinyin }}</h3>
+      <h3>is for<br><span class="food-card__item--title__title">{{ food.pinyin }}</span></h3>
       <span class="chinese">{{ food.chinese }}</span>
     </div>
 
     <div class="food-card__item food-card__item--image">
-      <div class="food-card__image" style="background-image: url('/uploads/{{ letter }}.png')"></div>
+      <div class="food-card__image js-lazy"
+        style="background-image: url('/uploads/{{ letter }}.png')"
+        data-src="/uploads/{{ letter }}.png"></div>
     </div>
   </a>
 </div>
