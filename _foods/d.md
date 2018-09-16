@@ -1,13 +1,11 @@
 ---
-title: b
-pinyin: bōbà nǎichá
-chinese: 波霸奶茶
+title: d
+pinyin: dòujiāng
+chinese: 豆漿
 resources: 
 - text: New York Times Recipe
   link: https://www.nytimes.com
-- text: Food52 Recipe
-  link: https://food52.com/recipes/77624-pesto-risotto-for-one-with-shrimp
-position: 1
+position: 5
 ---
 
 Toyota previa your mom fargo bill clinton david duchovny. Hot pink fresh nintendo 64 boombox catsuit. Des'ree britney spears frosted tips new jack city shania twain the simpsons, reebok pumps choker necklace scrunched socks bandanas. [Cheetos](https://justinjay.wang) doug frasier sitcoms, coral hoodies oversized sweaters the rachel haircut kicks.
