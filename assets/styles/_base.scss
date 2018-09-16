@@ -54,6 +54,9 @@ svg path {
   stroke: currentColor;
   stroke-width: $stroke;
   vector-effect: non-scaling-stroke;
+  @media (max-width: $bp-sm-md) {
+    stroke-width: $stroke-md;
+  }
 }
 
 hr {
@@ -61,6 +64,9 @@ hr {
   border-top: $stroke solid currentColor;
   margin-top: $v*0.5;
   margin-bottom: $v*0.5;
+  @media (max-width: $bp-sm-md) {
+    border-top-width: $stroke-md;
+  }
 }
 
 a {
