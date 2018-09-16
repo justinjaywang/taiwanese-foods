@@ -1,11 +1,17 @@
 {% assign letter = food.title %}
-<div class="food-card col col-4 md-col-6 xs-col-12">
-  
-  {% include letters/{{ letter }}.svg %}
+<div class="col col-4 md-col-6 xs-col-12">
+  <a class="food-card" href="{{ food.url }}">
+    <div class="food-card__item food-card__item--letter">
+      {% include letters/{{ letter }}.svg %}
+    </div>
 
-  <div class="food-card__image" style="background-image: url('/uploads/{{ letter }}.png')"></div>
+    <div class="food-card__item food-card__item--title">
+      <h3>is for<br>{{ food.pinyin }}</h3>
+      <span class="chinese">{{ food.chinese }}</span>
+    </div>
 
-  <h3>is for<br>{{ food.pinyin }}</h3>
-  <span class="chinese">{{ food.chinese }}</span>
-  
+    <div class="food-card__item food-card__item--image">
+      <div class="food-card__image" style="background-image: url('/uploads/{{ letter }}.png')"></div>
+    </div>
+  </a>
 </div>
