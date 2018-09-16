@@ -42,8 +42,11 @@ video {
 }
 
 svg {
-  height: 6em;
-  max-height: 134px; // size of actual asset, and exact height for 60px font-size
+  height: 5.583333em;
+  // max-height: 134px; // size of actual asset, and exact height for 60px font-size
+  @media (max-width: $bp-xs-sm) {
+    height: 4.35em;
+  }
 }
 
 svg path {
