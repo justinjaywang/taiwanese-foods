@@ -7,20 +7,28 @@
 html {
   box-sizing: border-box;
   font-size: $font-size--html;
+  @media (max-width: $bp-md-lg) {
+    font-size: $font-size--html-lg;
+  }
   @media (max-width: $bp-sm-md) {
     font-size: $font-size--html-md;
   }
 }
 
 body {
-  font-size: $font-size--normal;
   font-family: $font-family--body;
+  font-weight: $font-weight--body;
+  font-size: $font-size--normal;
   line-height: $line-height--normal;
-  // -webkit-font-smoothing: antialiased;
-  // -font-smoothing: antialiased;
-  // -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  -font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; // TO DO: autoprefix?
   overflow-x: hidden;
+  color: $color--fg;
+  background: $color--bg;
 }
+
+@include selection($color--selection, $color--fg);
 
 img,
 video,

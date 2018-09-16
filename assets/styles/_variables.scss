@@ -1,7 +1,14 @@
+// Colors
+
+$color--bg: #fff;
+$color--fg: #f55;
+$color--selection: #ff5;
+
 // Typography
 
 $font-size--html:    24px;
-$font-size--html-md: 20px;
+$font-size--html-lg: 21px;
+$font-size--html-md: 18px;
 
 $font-size--larger: 3.333333em;
 $font-size--large:  2.5em;
@@ -9,6 +16,7 @@ $font-size--normal: 1em;
 $font-size--small:  0.75em;
 
 $font-family--body: "Helvetica Neue", HelveticaNeue, Helvetica, Arial, sans-serif;
+$font-weight--body: 700;
 
 $line-height--normal: 28 / 24;
 $line-height--tight:  1;
