@@ -1,7 +1,7 @@
 title: Foods from Taiwan
 timezone: America/Los_Angeles
 url: http://fftw.justinjay.wang
-description: A (pinyin) alphabet book celebrating foods from Taiwan
+description: A pinyin alphabet book celebrating foods from Taiwan.
 collections:
   posts:
     title: Posts

@@ -10,8 +10,16 @@ layout: default
     {{ page.content | markdownify }}
   </div>
 </header>
+
+{% assign foods = site.foods | sort: 'position' %}
+
+<nav class="food-nav">
+  {%- for food in foods -%}
+    <a href="#{{ food.title }}" class="food-nav__link">{{ food.title }}</a>
+  {%- endfor -%}
+</nav>
+
 <div class="food-posts">
-  {% assign foods = site.foods | sort: 'position' %}
   {% for food in foods %}
     {% include food-post.html %}
   {% endfor %}

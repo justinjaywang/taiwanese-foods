@@ -1,22 +1,56 @@
 .header {
-  padding-top: $v;
-  padding-bottom: $v;
-  @extend %h5;
   position: fixed;
+  z-index: 2;
+}
+
+.header,
+.food-nav {
+  pointer-events: none;
   width: 100%;
   top: 0;
   left: 0;
   right: 0;
-  z-index: 1;
 }
 
-.header a {
+.food-nav {
+  position: sticky;
+  text-align: center;
+  background-color: $color--bg;
+  z-index: 1;
+  @media (max-width: 640px) {
+    display: none;
+  }
+  &, &:active {
+    top: -1px; // account for weird bug for sticky
+  }
+}
+
+.header__link,
+.food-nav__link {
+  pointer-events: auto;
+  display: inline-block;
+  padding-top: $v;
+  padding-bottom: $v;
+  @extend %h5;
   @extend %underline;
 }
 
-.header__items {
-  @include flex;
-  @include justify-content(space-between);
+.header__link {
+  padding-left: $gutter;
+  padding-right: $gutter;
+  &:nth-of-type(1) {
+    position: absolute;
+    left: 0;
+  }
+  &:nth-of-type(2) {
+    position: absolute;
+    right: 0;
+  }
+}
+
+.food-nav__link {
+  padding-left: 0.333333em;
+  padding-right: 0.333333em;
 }
 
 .footer {

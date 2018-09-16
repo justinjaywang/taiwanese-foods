@@ -1,9 +1,5 @@
-<header class="header container">
-  <ul class="header__items">
-    {% for item in site.header %}
-      <li class="header__item">
-        <a href="{{ item.link }}">{{ item.text }}</a>
-      </li>
-    {% endfor %}
-  </ul>
+<header class="header">
+  {% for item in site.header | limit:2 %}
+    <a href="{{ item.link }}" class="header__link">{{ item.text }}</a>
+  {% endfor %}
 </header>
