@@ -1,6 +1,6 @@
 ---
 title: f
-pinyin: fènglísū
+pinyin: fènglí sū
 chinese: 鳳梨酥
 resources: 
 - text: New York Times Recipe

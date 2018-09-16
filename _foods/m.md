@@ -1,6 +1,6 @@
 ---
 title: m
-pinyin: mántóu
+pinyin: mántou
 chinese: 饅頭
 resources: 
 - text: New York Times Recipe

@@ -124,15 +124,11 @@
 }
 
 .chinese {
-  display: inline-block;
   &:before {
     content: '(';
   }
   &:after {
     content: ')';
-  }
-  .food-post & {
-    margin-top: 0.2em;
   }
 }
 
