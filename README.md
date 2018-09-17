@@ -43,7 +43,6 @@ Push to GitHub repo and have it automatically deploy.
 ---
 ## To Do
 
-- Style
-  - url rewriting
+- Picture edits
 - Content writing
 - Clean up images one by one

@@ -67,8 +67,9 @@ var initScrollMonitor = function () {
   }
 
   function listener(event, watcher) {
-    if (watcher.isInViewport) {
+    if (watcher.isFullyInViewport) {
       setActiveNav(watcher.watchItem.id);
+      updateUrl(watcher.watchItem.id);
     }
   }
 
@@ -79,6 +80,7 @@ var initScrollMonitor = function () {
       navLinks[i].classList.remove('js-active');
     }
 
+    if (id == 'home') return; // homepage
     var activeLink = nav.querySelector('[data-target=' + id + ']');
     activeLink.classList.add('js-active');
   }
@@ -104,6 +106,7 @@ var initSmoothScroll = function () {
 
   for (i = 0, l = navLinks.length; i < l; i++) {
     navLinks[i].addEventListener('click', function (e) {
+      e.preventDefault();
       var id = this.getAttribute('data-target');
       scrollTo(
         document.querySelector('#' + id),
@@ -190,6 +193,16 @@ function scrollTo (destination, duration = 200, easing = 'linear', callback) {
   scroll();
 }
 
+// url rewriting
+
+function updateUrl(url) {
+  if (url && url != 'home') {
+    window.history.replaceState(null, null, '/#' + url);
+  } else { // homepage
+    window.history.replaceState(null, null, '/');
+  }
+}
+
 document.addEventListener('DOMContentLoaded', function () {
 
   document.body.classList.add('js');
@@ -197,5 +210,6 @@ document.addEventListener('DOMContentLoaded', function () {
   initStickyNav();
   initScrollMonitor();
   initSmoothScroll();
+
   
 });

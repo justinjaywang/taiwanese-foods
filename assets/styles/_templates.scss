@@ -15,7 +15,7 @@
 .food-nav {
   text-align: center;
   position: absolute;
-  bottom: $v;
+  bottom: 0;
   z-index: 1;
   @media (max-width: $bp-hide-nav) {
     display: none;
@@ -129,7 +129,7 @@
 }
 
 .food-post__footer {
-  margin-bottom: $v*5;
+  padding-bottom: $v*5;
 }
 
 .food-post__title {
