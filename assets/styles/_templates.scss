@@ -80,11 +80,11 @@
 }
 
 .main--homepage__header {
-  margin-top: $v*7;
+  padding-top: $v*7;
   padding-bottom: $v*6;
   position: relative;
   @media (max-width: $bp-sm-md) {
-    margin-top: $v*6;
+    padding-top: $v*6;
   }
 }
 
