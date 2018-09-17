@@ -44,28 +44,21 @@ var initStickyNav = function () {
     nav.appendChild(headerLinkClone);
   }
 
-  // check if should be sticky
-  var navTop = navClone.offsetTop;
-  window.onscroll = function () {
-    checkSticky(navClone, navTop);
+  var navWatcher = scrollMonitor.create(navClone);
+  navWatcher.stateChange(navListener);
+  navListener(null, navWatcher);
+
+  function navListener(event, watcher) {
+    if (watcher.isAboveViewport) {
+      document.body.classList.add('js-is-sticky');
+    } else {
+      document.body.classList.remove('js-is-sticky');
+    }
   };
-  window.onresize = function () {
-    navTop = navClone.offsetTop;
-    checkSticky(navClone, navTop);
-  };
-  checkSticky(navClone, navTop);
 };
 
-var checkSticky = function (el, top) {
-  if (window.pageYOffset >= top) {
-    document.body.classList.add('js-is-sticky')
-  } else {
-    document.body.classList.remove('js-is-sticky');
-  }
-}
-
 var initScrollMonitor = function () {
-  var items = document.querySelectorAll('.js-monitor');
+  var items = document.querySelectorAll('[data-monitor]');
 
   for (i = 0, l = items.length; i < l; i++) {
     var item = items[i];
@@ -82,15 +75,15 @@ var initScrollMonitor = function () {
     listener(null, watcher);
   }
 
-  // function listener(event, watcher) {
-  //   if (watcher.isInViewport) {
-  //     watcher.watchItem.setAttribute('data-monitor', 'in-view');
-  //   } else if (watcher.isBelowViewport) {
-  //     watcher.watchItem.setAttribute('data-monitor', 'below-view');
-  //   } else if (watcher.isAboveViewport) {
-  //     watcher.watchItem.setAttribute('data-monitor', 'above-view');
-  //   }
-  // }
+  function listener(event, watcher) {
+    if (watcher.isInViewport) {
+      watcher.watchItem.setAttribute('data-monitor', 'in-view');
+    } else if (watcher.isBelowViewport) {
+      watcher.watchItem.setAttribute('data-monitor', 'below-view');
+    } else if (watcher.isAboveViewport) {
+      watcher.watchItem.setAttribute('data-monitor', 'above-view');
+    }
+  }
 
 };
 

@@ -44,7 +44,6 @@ Push to GitHub repo and have it automatically deploy.
 ## To Do
 
 - Style
-  - sticky nav
   - anchor links/url rewriting/nav current item highlight
   - smooth scroll to
 - Content writing
