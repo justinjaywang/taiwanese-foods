@@ -100,7 +100,9 @@ var initSmoothScroll = function () {
       document.body,
       500,
       'easeInOutQuart',
-      null
+      function () {
+        updateUrl(null);
+      }
     );
   });
 
@@ -112,7 +114,9 @@ var initSmoothScroll = function () {
         document.querySelector('#' + id),
         500,
         'easeInOutQuart',
-        null
+        function () {
+          updateUrl(id);
+        }
       );
     });
   }
