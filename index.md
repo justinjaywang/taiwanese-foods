@@ -3,10 +3,10 @@ title: A Pinyin Alphabet Book Celebrating Foods from Taiwan
 layout: homepage
 ---
 
-#### About Pinyin
+#### What's pinyin?
 
 Pinyin (also called the Chinese Phonetic Alphabet) is the official romanization system for Mandarin Chinese. The alphabet's twenty-one initial letters are presented here, each with a corresponding food.
 
 #### Featured Foods
 
-With abundant natural resources, and influences from Chinese to Japanese to Portuguese, Taiwanese cuisine is as diverse as it is delicious. The fruits, vegetables, snacks, desserts, and dishes presented below provide a mere introduction to the myriad and wonderful world that is Taiwanese food.
+Taiwanese cuisine is rich and diverse, having been shaped by various Asian and Western influences, most notably Chinese and Japanese. The foods showcased here—from fruits, vegetables, and seafood to snacks, desserts, and homestyle dishes—provide a mere introduction.
