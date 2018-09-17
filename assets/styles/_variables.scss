@@ -40,7 +40,7 @@ $bp-sm-md: 864px;
 $bp-md-lg: 1152px;
 $bp-lg-xl: 1440px;
 
-$bp-hide-nav: 640px;
+$bp-hide-nav: 680px;
 
 $g:               $v-rem * 0.8;
 $outer-gutter:    $g;
@@ -53,3 +53,5 @@ $duration--normal: 0.5s;
 
 $stroke:    3px;
 $stroke-md: 2px;
+
+$underline-thickness: 0.125em;

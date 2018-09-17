@@ -18,7 +18,9 @@
     visibility: hidden;
   }
   .js-nav-link.js-active {
-    @extend %underlined;
+    .food-nav__link__inner {
+      border-bottom-color: currentColor;
+    }
   }
 }
 .js-is-sticky {

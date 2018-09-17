@@ -15,7 +15,7 @@
 .food-nav {
   text-align: center;
   position: absolute;
-  bottom: 0;
+  bottom: $v*0.5;
   z-index: 1;
   @media (max-width: $bp-hide-nav) {
     display: none;
@@ -29,7 +29,6 @@
   padding-top: $v;
   padding-bottom: $v;
   @extend %h5;
-  @extend %underline;
 }
 
 .header__link {
@@ -47,8 +46,23 @@
 }
 
 .food-nav__link {
-  padding-left: 0.333333em;
-  padding-right: 0.333333em;
+  padding-left: 0.4%;
+  padding-right: 0.4%;
+}
+
+.food-nav__link__inner {
+  transition: border-color $duration--fast;
+  border-bottom-width: $underline-thickness;
+  border-bottom-style: solid;
+  border-bottom-color: transparent;
+  padding-left: 1px;
+  padding-right: 1px;
+  .food-nav:hover & {
+    border-bottom-color: transparent !important;
+  }
+  .food-nav__link:hover & {
+    border-bottom-color: currentColor !important;
+  }
 }
 
 .footer {
@@ -76,7 +90,7 @@
 
 .main--homepage__header {
   padding-top: $v*1.5;
-  padding-bottom: $v*6;
+  padding-bottom: $v*8;
   position: relative;
   @media (max-width: $bp-hide-nav) {
     padding-bottom: $v*4;
