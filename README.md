@@ -44,7 +44,6 @@ Push to GitHub repo and have it automatically deploy.
 ## To Do
 
 - Style
-  - anchor links/url rewriting/nav current item highlight
-  - smooth scroll to
+  - url rewriting
 - Content writing
 - Clean up images one by one

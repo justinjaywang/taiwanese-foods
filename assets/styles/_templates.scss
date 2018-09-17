@@ -125,7 +125,7 @@
 }
 
 .food-post__body {
-  margin-bottom: $v*2;
+  margin-bottom: $v*2.5;
 }
 
 .food-post__footer {
@@ -153,9 +153,9 @@
 
 .food-post__link {
   display: block;
-  margin-bottom: $v*0.75;
+  margin-bottom: $v*0.833333;
   &:first-of-type {
-    margin-top: $v*0.75;
+    margin-top: $v*0.833333;
   }
 }
 
