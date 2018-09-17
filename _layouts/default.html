@@ -10,7 +10,7 @@
       <meta property="og:image:width" content="240" />
       <meta property="og:image:height" content="240" />
     {% endunless %}
-    <title>{{ page.title | default: site.title }}{% if page.url != '/' %} — {{ site.title }}{% else %} — {{ site.title }}{% endif %}</title>
+    <title>{{ page.title | default: site.title }}{% if page.layout != 'homepage' %} — {{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
     <link rel="stylesheet" href="/assets/styles/all.css" />
     <link rel="icon" href="/assets/images/favicon.ico" />
