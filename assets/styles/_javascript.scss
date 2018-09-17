@@ -20,6 +20,9 @@
   .js-nav .header__link {
     visibility: hidden;
   }
+  .js-nav-link.js-active {
+    @extend %underlined;
+  }
 }
 .js-is-sticky {
   .header {

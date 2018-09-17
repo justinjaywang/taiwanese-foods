@@ -23,7 +23,7 @@ var initLazyLoad = function () {
   );
 };
 
-// monitor scroll
+// sticky nav
 
 var initStickyNav = function () {
   var nav = document.querySelector('.js-nav');
@@ -57,34 +57,34 @@ var initStickyNav = function () {
   };
 };
 
+// monitor scroll on food posts
+
 var initScrollMonitor = function () {
   var items = document.querySelectorAll('[data-monitor]');
 
   for (i = 0, l = items.length; i < l; i++) {
     var item = items[i];
     var watcher = scrollMonitor.create(item);
-    watcher.partiallyExitViewport(function () {
-      console.log('partially exited!');
-      console.log(watcher.watchItem);
-    });
-    watcher.enterViewport(function () {
-      console.log('is in viewport!');
-      console.log(watcher.watchItem);
-    });
-    // watcher.stateChange(listener);
+    watcher.stateChange(listener);
     listener(null, watcher);
   }
 
   function listener(event, watcher) {
     if (watcher.isInViewport) {
-      watcher.watchItem.setAttribute('data-monitor', 'in-view');
-    } else if (watcher.isBelowViewport) {
-      watcher.watchItem.setAttribute('data-monitor', 'below-view');
-    } else if (watcher.isAboveViewport) {
-      watcher.watchItem.setAttribute('data-monitor', 'above-view');
+      setActiveNav(watcher.watchItem.id);
     }
   }
 
+  function setActiveNav(id) {
+    console.log(id);
+    // links = nav.querySelectorAll('.js-nav-link');
+    // for (i = 0, l = links.length; i < l; i++) {
+    //   links[i].classList.remove('js-active');
+    // }
+
+    // var activeLink = nav.querySelector('[data-target=' + id + ']');
+    // activeLink.classList.add('js-active');
+  }
 };
 
 
