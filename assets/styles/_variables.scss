@@ -11,9 +11,7 @@ $font-size--html:    24px;
 $font-size--html-lg: 21px;
 $font-size--html-md: 18px;
 
-$font-size--largest:    3.333333em;
-$font-size--largest-md: 3em;
-$font-size--largest-sm: 2.5em;
+$font-size--largest:    3.833333em;
 $font-size--larger:     2.5em;
 $font-size--larger-sm:  2em;
 $font-size--large:      1.5em;
@@ -37,10 +35,12 @@ $max-width--container--wide:   1680px;
 $max-width--container--narrow: 30rem;
 
 // xs | sm | md | lg | xl
-$bp-xs-sm: 576px;// 576px;  // 36rem;
-$bp-sm-md: 864px;// 864px;  // 54rem;
-$bp-md-lg: 1152px;// 1152px; // 72rem;
-$bp-lg-xl: 1440px;// 1440px; // 90rem;
+$bp-xs-sm: 576px;
+$bp-sm-md: 864px;
+$bp-md-lg: 1152px;
+$bp-lg-xl: 1440px;
+
+$bp-hide-nav: 640px;
 
 $g:               $v-rem * 0.8;
 $outer-gutter:    $g;

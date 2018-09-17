@@ -17,7 +17,7 @@
   position: absolute;
   bottom: $v;
   z-index: 1;
-  @media (max-width: 640px) {
+  @media (max-width: $bp-hide-nav) {
     display: none;
   }
 }
@@ -75,18 +75,24 @@
 }
 
 .main--homepage__header {
-  padding-top: $v*7;
+  padding-top: $v*1.5;
   padding-bottom: $v*6;
   position: relative;
-  @media (max-width: $bp-md-lg) {
-    padding-top: $v*6;
+  @media (max-width: $bp-hide-nav) {
+    padding-bottom: $v*4;
   }
 }
 
 .main--homepage__header__title {
-  max-width: 40em;
   text-align: center;
-  margin-bottom: $v*5;
+  max-width: 44em;
+  margin-top: $v*6;
+  margin-bottom: $v*6;
+  @media (max-width: $bp-md-lg) {
+    max-width: none;
+    margin-top: 15vw;
+    margin-bottom: 15vw;
+  }
 }
 
 .food-posts {

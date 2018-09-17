@@ -102,11 +102,8 @@ h1,
 %h1 {
   font-size: $font-size--largest;
   line-height: $line-height--tight;
-  @media (max-width: $bp-sm-md) {
-    font-size: $font-size--largest-md;
-  }
-  @media (max-width: $bp-xs-sm) {
-    font-size: $font-size--largest-sm;
+  @media (max-width: $bp-md-lg) {
+    font-size: 8vw;
   }
 }
 
