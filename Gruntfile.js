@@ -9,6 +9,7 @@ module.exports = function(grunt) {
       dist: {
         src: [
           'assets/scripts/_source/plugins/blazy.js',
+          'assets/scripts/_source/plugins/scrollMonitor.js',
           'assets/scripts/_source/*.js'
           ],
         dest: 'assets/scripts/all.js',

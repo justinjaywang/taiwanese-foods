@@ -44,9 +44,8 @@ Push to GitHub repo and have it automatically deploy.
 ## To Do
 
 - Style
-  - link styles
-  - anchor links/url rewriting
+  - sticky nav
+  - anchor links/url rewriting/nav current item highlight
   - smooth scroll to
-  - image lazy loading and animations in
 - Content writing
 - Clean up images one by one

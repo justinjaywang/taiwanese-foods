@@ -1,4 +1,4 @@
-// Blazy
+// lazy load
 
 .js {
   .js-lazy {
@@ -8,5 +8,29 @@
 
   .js-post-lazy-loaded {
     opacity: 1;
+  }
+}
+
+// scroll monitor
+
+.js {
+  .js-nav-ghost {
+    visibility: hidden;
+  }
+  .js-nav .header__link {
+    visibility: hidden;
+  }
+}
+.js-is-sticky {
+  .header {
+    visibility: hidden;
+  }
+  .js-nav {
+    position: fixed;
+    top: 0;
+    bottom: auto;
+  }
+  .js-nav .header__link {
+    visibility: visible;
   }
 }

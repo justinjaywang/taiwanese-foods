@@ -24,13 +24,13 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
-    <script src="/assets/scripts/all.js"></script>
   </head>
-  <body>
+  <body class="body body--{{ page.layout }}">
     {% include header.html %}
     <main class="main main--{{ page.layout }}">
       {{ content }}
     </main>
     {% include footer.html %}
+    <script src="/assets/scripts/all.js"></script>
   </body>
 </html>

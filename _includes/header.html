@@ -1,5 +1,5 @@
 <header class="header">
   {% for item in site.header | limit:2 %}
-    <a href="{{ item.link }}" class="header__link">{{ item.text }}</a>
+    <a href="{{ item.link }}" class="header__link{% if forloop.index == 1 %} header__link--left{% else %} header__link--right{% endif %}">{{ item.text }}</a>
   {% endfor %}
 </header>
