@@ -105,8 +105,8 @@
 
 .food-post__banner {
   height: 0;
-  padding-bottom: 720px;
-  @media (max-width: 1280px) {
+  padding-bottom: 630px;
+  @media (max-width: 1120px) {
     padding-bottom: 56.25%; // 9/16
   }
   @media (max-width: 640px) {
