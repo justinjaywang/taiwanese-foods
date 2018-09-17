@@ -1,5 +1,4 @@
 <header class="header">
-  {% for item in site.header | limit:2 %}
-    <a href="{{ item.link }}" class="header__link{% if forloop.index == 1 %} header__link--left{% else %} header__link--right{% endif %}">{{ item.text }}</a>
-  {% endfor %}
+  <a href="/" class="header__link header__link--left{% if page.layout == 'homepage' %} js-home{% endif %}">Home</a>
+  <a href="/all/" class="header__link header__link--right">Browse all</a>
 </header>

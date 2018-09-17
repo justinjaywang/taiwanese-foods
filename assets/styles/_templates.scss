@@ -1,6 +1,6 @@
 .header {
   position: fixed;
-  z-index: 1;
+  z-index: 2;
   top: 0;
 }
 
@@ -19,11 +19,6 @@
   z-index: 1;
   @media (max-width: 640px) {
     display: none;
-  }
-  pointer-events: none;
-  transition: background-color $duration--fast;
-  &:hover {
-    background-color: $color--bg;
   }
 }
 
@@ -83,13 +78,13 @@
   padding-top: $v*7;
   padding-bottom: $v*6;
   position: relative;
-  @media (max-width: $bp-sm-md) {
+  @media (max-width: $bp-md-lg) {
     padding-top: $v*6;
   }
 }
 
 .main--homepage__header__title {
-  max-width: 42em;
+  max-width: 40em;
   text-align: center;
   margin-bottom: $v*5;
 }

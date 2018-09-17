@@ -55,8 +55,3 @@ sass:
   style: compressed
 repository: justinjaywang/foods-from-taiwan
 google_analytics: 
-header:
-- text: Home
-  link: /
-- text: Browse all
-  link: /all/
