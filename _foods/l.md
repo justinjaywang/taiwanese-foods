@@ -12,7 +12,7 @@ resources:
 position: 8
 ---
 
-Liánwù (*wax apple*, *lianwu*, literally: *lotus mist*) is a fruit common in Taiwan, particularly in the south. An apple by name only, the taste is mildly sweet and the inner flesh is juicy, crisp, light, and refreshing. This airy texture, along with their rarity (they are not widely cultivated due to their perishability), makes wax apples prized and truly unique.
+Liánwù (*wax apple*, *lianwu*, literally: *lotus mist*) is a fruit native to Southeast Asia and found in the south of Taiwan. An apple by name only, the taste is mildly sweet and the inner flesh is juicy, crisp, light, and refreshing. This airy texture, along with their rarity (they are not widely cultivated due to their perishability), makes wax apples prized and truly unique.
 
 <!-- 
 - native to Southeast Asia

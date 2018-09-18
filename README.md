@@ -44,3 +44,5 @@ Push to GitHub repo and have it automatically deploy.
 ## To Do
 
 - Content writing
+- Remove data target from js-nav-link
+- Get back button to work
