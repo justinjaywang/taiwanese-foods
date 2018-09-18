@@ -5,7 +5,7 @@ layout: homepage
 
 #### What's pinyin?
 
-Pinyin (also called the Chinese Phonetic Alphabet) is the official romanization system for Mandarin Chinese. The alphabet's twenty-one initial letters are presented here, each with a corresponding food.
+Pinyin (also called the Chinese Phonetic Alphabet) is the official romanization system for Mandarin Chinese. The alphabet's twenty-one initial letters are each presented with a corresponding food.
 
 #### Featured Foods
 

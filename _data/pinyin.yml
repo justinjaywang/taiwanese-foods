@@ -1,12 +1,8 @@
-- text: One Pinyin Link
-  link: http://google.com
-- text: Pinyin on Wikipedia
-  link: https://justinjay.wang
-- text: One Pinyin Link
-  link: http://google.com
-- text: Pinyin on Wikipedia
-  link: https://justinjay.wang
-- text: One Pinyin Link
-  link: http://google.com
-- text: Pinyin on Wikipedia
-  link: https://justinjay.wang
+- text: "Pinyin (Wikipedia)"
+  link: https://en.wikipedia.org/wiki/Pinyin
+- text: "Rules for Using Pinyin"
+  link: http://pinyin.info/rules/index.html
+- text: "Pinyin News"
+  link: http://pinyin.info/news
+- text: "Chinese-English Dictionary"
+  link: http://dictionary.pinpinchinese.com/

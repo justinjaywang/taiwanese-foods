@@ -8,18 +8,18 @@
       </div>
     </div>
     <div class="footer__section col col-3 xs-col-12">
-      <h5 class="footer__section__title">Pinyin Resources</h5>
+      <h5 class="footer__section__title">More on Taiwanese Food</h5>
       <ul class="small">
-        {% for item in site.data.pinyin %}
-          <li><a href="{{ item.link }}">{{ item.text }}</a></li>
+        {% for item in site.data.food %}
+          <li><a href="{{ item.link }}" target="_blank">{{ item.text | markdownify }}</a></li>
         {% endfor %}
       </ul>
     </div>
     <div class="footer__section col col-3 xs-col-12">
-      <h5 class="footer__section__title">More on Taiwanese Food</h5>
+      <h5 class="footer__section__title">Pinyin Resources</h5>
       <ul class="small">
-        {% for item in site.data.food %}
-          <li><a href="{{ item.link }}">{{ item.text }}</a></li>
+        {% for item in site.data.pinyin %}
+          <li><a href="{{ item.link }}" target="_blank">{{ item.text | markdownify }}</a></li>
         {% endfor %}
       </ul>
     </div>

@@ -90,9 +90,7 @@ function setActiveNav(id) {
 
 var initSmoothScroll = function () {
   var home = document.querySelector('.js-home');
-  var nav = document.querySelector('.js-nav');
-  if (!nav) return;
-  var navLinks = nav.querySelectorAll('.js-nav-link');
+  var navLinks = document.querySelectorAll('.js-nav-link');
   if (!home || !navLinks) return;
 
   home.addEventListener('click', function (e) {

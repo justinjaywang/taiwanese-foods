@@ -1,15 +1,17 @@
 ---
 title: b
-pinyin: bōbà
-chinese: 波霸
+pinyin: bōbà nǎichá
+chinese: 波霸奶茶
 resources: 
-- text: New York Times Recipe
-  link: https://www.nytimes.com
-- text: Food52 Recipe
-  link: https://food52.com/recipes/77624-pesto-risotto-for-one-with-shrimp
+- text: A Brief History of Boba
+  link: https://www.foodandwine.com/tea/bubble-tea-taiwanese-street-drink-turned-american-addiction
+# - text: America is a coffee country—does bubble tea stand a chance?
+#   link: https://qz.com/581715/america-is-a-coffee-country-does-bubble-tea-stand-a-chance/
+- text: Hillary Clinton tries boba for the first time
+  link: https://www.youtube.com/watch?v=S-Xr1zHUxc4
+# - text: Kevin Durant takes fans up on boba recommendation
+#   link: https://www.reddit.com/r/warriors/comments/58k94i/hey_rwarriors_my_names_kevin/d913vit/
 position: 1
 ---
 
-Toyota previa your mom fargo bill clinton david duchovny. Hot pink fresh nintendo 64 boombox catsuit. Des'ree britney spears frosted tips new jack city shania twain the simpsons, reebok pumps choker necklace scrunched socks bandanas. [Cheetos](https://justinjay.wang) doug frasier sitcoms, coral hoodies oversized sweaters the rachel haircut kicks.
-
-Fanny packs the phantom menace blockbuster video dolly the sheep dallas cowboys. The truman show steve urkel mr. jones and me tell each other fairy tales cutoff jeans. Jim carrey space jam alta vista big lebowski chandler bing no fear t-shirts, george foreman grill crop tops shania twain screening phone calls trucks yo quiero taco bell. Boombox turquoise personal computer skidz and zubas. Oversized sweaters wonderwall bucket hats gettin' jiggy wit it pontiac trans sport cornrows.
+Bōbà nǎichá (*bubble milk tea* or simply *boba*) is a cold, sweet, milk tea drink containing chewy tapioca balls (boba) that you sip with a fat straw. A wide range of flavors and toppings exist. Boba originated in Taiwan during the 1980s and is arguably the country's most well-known food export.

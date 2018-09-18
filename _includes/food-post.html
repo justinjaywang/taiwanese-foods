@@ -29,7 +29,7 @@
         {% for resource in food.resources %}
           {% assign pretty_link = resource.link | split: '://' | last | split: '/' | first | remove: 'www.' %}
           <a href="{{ resource.link }}" target="_blank" class="food-post__link">
-            <h4 class="food-post__link__title">{{ resource.text }}</h4>
+            <h4 class="food-post__link__title">{{ resource.text | markdownify }}</h4>
             <small class="block">{{ pretty_link }}</small>
           </a>
         {% endfor %}

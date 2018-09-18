@@ -1,4 +1,10 @@
-- text: One Link
-  link: http://google.com
-- text: Another Link
-  link: https://justinjay.wang
+- text: "All About Taiwan Cuisine"
+  link: http://eatingchina.com/articles/taiwan-food.htm
+- text: "Taiwanese cuisine (Wikipedia)"
+  link: https://en.wikipedia.org/wiki/Taiwanese_cuisine
+- text: "Huang's World: Taiwan"
+  link: https://youtu.be/A-DATjPnJvk
+- text: "Angel Wong's Kitchen"
+  link: https://www.youtube.com/user/angelwongskitchen
+- text: "The Best Things I Ate in Taiwan" 
+  link: https://www.seriouseats.com/2015/08/what-to-eat-in-taiwan.html

@@ -3,8 +3,10 @@ title: s
 pinyin: sānbēijī
 chinese: 三杯雞
 resources: 
-- text: New York Times Recipe
-  link: https://www.nytimes.com
+- text: A Taste of Taiwan
+  link: https://www.nytimes.com/2015/06/14/magazine/a-taste-of-taiwan.html
+- text: Three-Cup Chicken Recipe
+  link: https://cooking.nytimes.com/recipes/1017456-three-cup-chicken
 position: 21
 ---
 
