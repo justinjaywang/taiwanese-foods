@@ -135,11 +135,11 @@
 
 .food-post__header {
   @include flex;
-  margin-bottom: $v*1.5;
+  margin-bottom: $v*1.75;
 }
 
 .food-post__body {
-  margin-bottom: $v*2.5;
+  margin-bottom: $v*2.25;
 }
 
 .food-post__footer {
@@ -177,6 +177,10 @@
   .food-post__link__title {
     text-decoration: underline;
   }
+}
+
+.food-post__link__title {
+  margin-bottom: $v*0.125;
 }
 
 .chinese {
