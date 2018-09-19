@@ -15,7 +15,7 @@
 .food-nav {
   text-align: center;
   position: absolute;
-  bottom: $v*0.5;
+  bottom: $v;
   z-index: 1;
   @media (max-width: $bp-hide-nav) {
     display: none;
@@ -89,10 +89,10 @@
 }
 
 .main--homepage__header {
-  padding-bottom: $v*8;
+  padding-bottom: $v*6;
   position: relative;
   @media (max-width: $bp-hide-nav) {
-    padding-bottom: $v*4;
+    padding-bottom: $v*3;
   }
 }
 
@@ -110,7 +110,7 @@
 }
 
 .food-posts {
-  margin-bottom: $v*6; 
+  margin-bottom: $v*4; 
 }
 
 .food-post__banner-wrap {
@@ -135,7 +135,7 @@
 
 .food-post__header {
   @include flex;
-  margin-bottom: $v*1.75;
+  margin-bottom: $v*1.5;
 }
 
 .food-post__body {

@@ -32,7 +32,7 @@ $v-rem: $line-height--normal * 1rem;
 // Grid
 
 $max-width--container--wide:   1680px;
-$max-width--container--narrow: 30rem;
+$max-width--container--narrow: 28rem;
 
 // xs | sm | md | lg | xl
 $bp-xs-sm: 576px;
@@ -42,7 +42,7 @@ $bp-lg-xl: 1440px;
 
 $bp-hide-nav: 680px;
 
-$g:               $v-rem * 0.8;
+$g:               $v-rem * 0.875;
 $outer-gutter:    $g;
 $gutter:          $g;
 
