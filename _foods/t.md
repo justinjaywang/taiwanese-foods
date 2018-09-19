@@ -10,4 +10,4 @@ resources:
 position: 6
 ---
 
-Tāngyuán (*tangyuan*, literally: *soup balls*) is a dessert made from rice flour mixed with water and shaped into balls. Tangyuan can be filled or unfilled, large or small, and served hot or cold in water or syrup. Sweet fillings include sesame paste, red bean paste, chocolate paste, and chopped peanuts.
+Tāngyuán (*tangyuan*, literally: "soup balls") is a dessert made from rice flour mixed with water and shaped into balls. Tangyuan can be filled or unfilled, large or small, and served hot or cold in water or syrup. Sweet fillings include sesame paste, red bean paste, chocolate paste, and chopped peanuts.
