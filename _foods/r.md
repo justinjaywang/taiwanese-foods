@@ -3,8 +3,8 @@ title: r
 pinyin: ròuzào fàn
 chinese: 肉燥飯
 resources: 
-- text: New York Times Recipe
-  link: https://www.nytimes.com
+- text: Taiwanese Braised Pork over Rice
+  link: https://www.angelwongskitchen.com/taiwanese-braised-pork-over-rice--284073290539151-l468-rograveu-fagraven.html
 position: 18
 ---
 

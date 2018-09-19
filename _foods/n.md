@@ -3,8 +3,8 @@ title: n
 pinyin: niúròu miàn
 chinese: 牛肉麵
 resources: 
-- text: New York Times Recipe
-  link: https://www.nytimes.com
+- text: Taiwanese Beef Noodle Soup (Recipe)
+  link: https://www.angelwongskitchen.com/taiwanese-beef-noodle-soup--292753290540629-niuacuterograveu-miagraven.html
 position: 7
 ---
 

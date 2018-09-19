@@ -8,6 +8,12 @@ resources:
 position: 15
 ---
 
-Toyota previa your mom fargo bill clinton david duchovny. Hot pink fresh nintendo 64 boombox catsuit. Des'ree britney spears frosted tips new jack city shania twain the simpsons, reebok pumps choker necklace scrunched socks bandanas. [Cheetos](https://justinjay.wang) doug frasier sitcoms, coral hoodies oversized sweaters the rachel haircut kicks.
+Zhúsǔn (*bamboo*)
 
-Fanny packs the phantom menace blockbuster video dolly the sheep dallas cowboys. The truman show steve urkel mr. jones and me tell each other fairy tales cutoff jeans. Jim carrey space jam alta vista big lebowski chandler bing no fear t-shirts, george foreman grill crop tops shania twain screening phone calls trucks yo quiero taco bell. Boombox turquoise personal computer skidz and zubas. Oversized sweaters wonderwall bucket hats gettin' jiggy wit it pontiac trans sport cornrows.
+<!-- 
+
+Spring holds a special place in Taiwanese cuisine; that's when the local delicacy of fresh, young bamboo shoots are ready for harvest, and if you've only eaten the canned stuff, you'll be blown away by shoots that are at once sweet, crunchy, nutty, and creamy. The same goes for young sugarcane, or the hyper-regional greens specific to certain mountain villages. Even plain old cabbage, when grown in the misty hill country, tastes better here; high-elevation mountain farmland means that cabbage and other produce grows slowly and fights for every concentrated nutrient it can muster.
+
+By and large, the produce dishes you'll find are pretty simple; vegetables this good don't need much fussing. So keep an eye out for cold, minimally dressed salads, or simple stir fries, like plate above of mountain greens gussied up with sweet-and-sour pickled berries, tiny dried fish, hot chilies, and plenty of garlic.
+
+-->

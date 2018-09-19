@@ -3,8 +3,8 @@ title: z
 pinyin: zòngzi
 chinese: 粽子
 resources: 
-- text: New York Times Recipe
-  link: https://www.nytimes.com
+- text: Bamboo Wrapped Sticky Rice (Recipe)
+  link: https://www.angelwongskitchen.com/bamboo-wrapped-sticky-rice-dumpling--3193323376-zogravengzi.html
 position: 19
 ---
 

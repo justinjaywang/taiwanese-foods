@@ -3,8 +3,8 @@ title: j
 pinyin: jiǎozi
 chinese: 餃子
 resources: 
-- text: New York Times Recipe
-  link: https://www.nytimes.com
+- text: Pork & Leek Potstickers (recipe)
+  link: https://www.angelwongskitchen.com/porkandleekpotstickers.html
 position: 12
 ---
 
