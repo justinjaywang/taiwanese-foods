@@ -6,13 +6,30 @@ layout: homepage
 
 #### Introduction
 
-Pinyin is an alphabet (romanization) system for Mandarin Chinese, used primarily as a tool to aid learning. Letters are grouped into intials and finals. The system includes four diacritics (āáǎà) to denote tones, and letters are grouped into intials and finals (every syllable begins with one intial and ends in one final).
+Pinyin, also called the Chinese Phonetic Alphabet, is a romanization system for Mandarin Chinese. Each of the alphabet's twenty-one initial letters (from B to S) is presented here with a corresponding food from Taiwan.
 
-Each of the alphabet's twenty-one initial letters (from B to S) is presented here with a corresponding Taiwanese food.
+The foods showcased are limited in number, but provide a reprentative overview of the different ingredients and flavors common in Taiwanese cuisine. Not every food item originated in Taiwan, but all have been embraced over the years by the island's food-obsessed populace.
+
+
+Taiwan, the leaf-shaped island off the coast of China, has had a tumultuous history, with many waves of inhabitants over several hundreds of years. 
+
+
+- Not every food item originated in Taiwan (though many are) but they sure enough can be found on the island.
+
+- Representative sampling, fresh seafood (qiu dao yu), fruits (lian wu and shizi), and vegetables (ku gua and zhu sun).
+- homestyle dishes (san bei ji and rou zao fan)
+- street food, snacks (gua bao )
+- classics (paigu, niu rou mian)
+- desserts (tangyuan, boba)
+
+- seafood is plentiful and fresh on island with 
+- fruits are abundant, Taiwan grows a wide range of tropical and temperate fruits
+- Taiwan produces a huge variety of vegetables, particularly the leafy green varieties
+
+- geographical location freshness and availability is key
 
 Much like the history of the island itself, the food is difficult to pinpoint. In short, it's a blend of different cuisines, from Chinese to Japanese, with influences from Hakka and the indigenous peoples that have occupied the island for a thousand years.
 
-The foods showcased here—from fruits, vegetables, and seafood to snacks, desserts, and homestyle dishes—provide a mere introduction.
 
 <!--
 ---
