@@ -13,11 +13,3 @@ position: 14
 ---
 
 Xīguā (*watermelon*) is abundant in Taiwan from April to August. Taiwan produces some of the world's tastiest varieties, due in large part to the extensive work of Taiwanese horticulturalist Chen Wen-yu, known as the "Watermelon King."
-
-<!-- 
-Watermelon is abundant every year in Taiwan from April from August
-With a high water content, watermelons are an excellent food for the summer since they will also help keep the body hydrated in high temperatures
-
-
-The watermelons from Taiwan, producers of some of the world’s tastiest varieties,
--->
