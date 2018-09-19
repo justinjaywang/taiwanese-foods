@@ -89,7 +89,6 @@
 }
 
 .main--homepage__header {
-  padding-top: $v*1.5;
   padding-bottom: $v*8;
   position: relative;
   @media (max-width: $bp-hide-nav) {
@@ -100,12 +99,13 @@
 .main--homepage__header__title {
   text-align: center;
   max-width: 44em;
-  margin-top: $v*6;
-  margin-bottom: $v*6;
+  padding-top: $v*1;
+  margin-top: $v*6.5;
+  margin-bottom: $v*6.5;
   @media (max-width: $bp-md-lg) {
     max-width: none;
-    margin-top: 15vw;
-    margin-bottom: 15vw;
+    margin-top: 16vw;
+    margin-bottom: 16vw;
   }
 }
 
