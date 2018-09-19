@@ -6,11 +6,11 @@ layout: homepage
 
 #### Introduction
 
-Pinyin, also called the Chinese Phonetic Alphabet, is a romanization system for Mandarin Chinese. Each of the alphabet's twenty-one initial letters (from B to S) is presented here with a corresponding food from Taiwan.
+Pinyin, also called the Chinese Phonetic Alphabet, is a romanization system for Mandarin Chinese. Each of the alphabet's twenty-one initial letters is presented here with a corresponding food from Taiwan.
 
-With influences from the various people that have inhabited the island over the centuries—Chinese, Japanese, Hakka, Spanish, Portuguese, Dutch, and indigenous peoples— Taiwanese food is a blend of cuisines. Combined with its subtropical climate and location and coastlines, that accounts for fresh seafood, and wide variety of fruits and vegetables.
+Influenced by the various people that have inhabited the island over several centuries (most notably the Chinese, Japanese, and indigenous peoples) as well as geographic factors (location and climate mean plentiful seafood and a wide variety of fruits and vegetables), Taiwanese cuisine is a diverse blend of styles.
 
-The foods showcased are limited in number, but provide a reprentative overview of ingredients and flavors common in Taiwanese cuisine. Though not every food item necessarily originated in Taiwan, all have been embraced over the years by the island's food-obsessed populace.
+The foods showcased are limited in number, but provide a reprentative overview of common ingredients and flavors. Though not every food necessarily originated in Taiwan, all have been embraced over the years by the island's food-obsessed populace.
 
 <!-- 
 Taiwanese food is , when you account for its geography and climate, and its history of several waves of immigration to the island over several centuries.
@@ -22,8 +22,6 @@ Taiwanese food is , when you account for its geography and climate, and its hist
 seafood abundant, produces large variety of fruits and vegetables.
 
 - geographical location freshness and availability is key
-
-Much like the history of the island itself, the food is difficult to pinpoint. In short, it's a blend of different cuisines, from Chinese to Japanese, with influences from Hakka and the indigenous peoples that have occupied the island for a thousand years.
 
 - fresh seafood (qiu dao yu), fruits (lian wu and shizi), and vegetables (ku gua and zhu sun).
 - homestyle dishes (san bei ji and rou zao fan)
