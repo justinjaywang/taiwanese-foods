@@ -3,11 +3,21 @@ title: x
 pinyin: xīguā
 chinese: 西瓜
 resources: 
-- text: New York Times Recipe
-  link: https://www.nytimes.com
+- text: "Chen Wen-yu"
+  link: https://en.wikipedia.org/wiki/Chen_Wen-yu
+# - text: "'Watermelon King' dies"
+#   link: http://www.taipeitimes.com/News/taiwan/archives/2012/12/18/2003550438
+- text: Taiwanese Watermelon Milk (recipe)
+  link: http://www.the350degreeoven.com/2013/06/chinese-taiwanese/xigua-niu-nai-taiwanese-watermelon-milk-juice-and-xigua-zhi-watermelon-juice/
 position: 14
 ---
 
-Toyota previa your mom fargo bill clinton david duchovny. Hot pink fresh nintendo 64 boombox catsuit. Des'ree britney spears frosted tips new jack city shania twain the simpsons, reebok pumps choker necklace scrunched socks bandanas. [Cheetos](https://justinjay.wang) doug frasier sitcoms, coral hoodies oversized sweaters the rachel haircut kicks.
+Xīguā (*watermelon*) is abundant in Taiwan from April to August. Taiwan produces some of the world's tastiest varieties, due in large part to the extensive work of Taiwanese horticulturalist Chen Wen-yu, known as the "Watermelon King."
 
-Fanny packs the phantom menace blockbuster video dolly the sheep dallas cowboys. The truman show steve urkel mr. jones and me tell each other fairy tales cutoff jeans. Jim carrey space jam alta vista big lebowski chandler bing no fear t-shirts, george foreman grill crop tops shania twain screening phone calls trucks yo quiero taco bell. Boombox turquoise personal computer skidz and zubas. Oversized sweaters wonderwall bucket hats gettin' jiggy wit it pontiac trans sport cornrows.
+<!-- 
+Watermelon is abundant every year in Taiwan from April from August
+With a high water content, watermelons are an excellent food for the summer since they will also help keep the body hydrated in high temperatures
+
+
+The watermelons from Taiwan, producers of some of the world’s tastiest varieties,
+-->
