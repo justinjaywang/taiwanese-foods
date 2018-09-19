@@ -29,18 +29,13 @@ var initStickyNav = function () {
   var nav = document.querySelector('.js-nav');
   if (!nav) return;
 
-  // clone nav to make ghost for position calculation
-  var navClone = nav.cloneNode(true);
-  navClone.classList.remove('js-nav');
-  navClone.classList.add('js-nav-ghost');
-  var navParent = nav.parentNode;
-  navParent.insertBefore(navClone, nav);
+  var firstPost = document.querySelectorAll('[data-monitor]')[0];
 
-  var navWatcher = scrollMonitor.create(navClone);
-  navWatcher.stateChange(navListener);
-  navListener(null, navWatcher);
+  var firstPostwatcher = scrollMonitor.create(firstPost, 200);
+  firstPostwatcher.stateChange(firstPostListener);
+  firstPostListener(null, firstPostwatcher);
 
-  function navListener(event, watcher) {
+  function firstPostListener(event, watcher) {
     if (watcher.isAboveViewport) {
       document.body.classList.add('js-is-sticky');
     } else {
@@ -58,7 +53,7 @@ var initScrollMonitor = function () {
   var watchers = [];
   for (i = 0, l = items.length; i < l; i++) {
     var item = items[i];
-    var watcher = scrollMonitor.create(item);
+    var watcher = scrollMonitor.create(item, 200);
     watchers[i] = watcher;
     watcher.stateChange(listener);
   }
@@ -82,7 +77,7 @@ function setActiveNav(id) {
   }
 
   if (id == 'home') return; // homepage
-  var activeLink = nav.querySelector('[data-target=' + id + ']');
+  var activeLink = nav.querySelector("[href='#" + id + "']");
   activeLink.classList.add('js-active');
 }
 
@@ -108,7 +103,8 @@ var initSmoothScroll = function () {
   for (i = 0, l = navLinks.length; i < l; i++) {
     navLinks[i].addEventListener('click', function (e) {
       e.preventDefault();
-      var id = this.getAttribute('data-target');
+      var href = this.getAttribute('href');
+      var id = href.replace('#', '');
       scrollTo(
         document.querySelector('#' + id),
         500,

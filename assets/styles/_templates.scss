@@ -1,22 +1,32 @@
-.header {
-  position: fixed;
-  z-index: 2;
-  top: 0;
-}
-
 .header,
 .food-nav {
+  position: fixed;
   pointer-events: none;
+  @extend %h5;
+}
+
+.header {
   width: 100%;
+  top: 0;
   left: 0;
   right: 0;
+  margin-top: $gutter;
+  margin-bottom: $gutter;
+  z-index: 2;
 }
 
 .food-nav {
-  text-align: center;
-  position: absolute;
-  bottom: $v;
+  position: fixed;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
   z-index: 1;
+  @include flex;
+  @include flex-direction(column);
+  @include justify-content(space-around);
+  padding-top: 12vh;
+  padding-bottom: 12vh;
   @media (max-width: $bp-hide-nav) {
     display: none;
   }
@@ -26,42 +36,49 @@
 .food-nav__link {
   pointer-events: auto;
   display: inline-block;
-  padding-top: $v;
-  padding-bottom: $v;
-  @extend %h5;
 }
 
 .header__link {
-  padding-left: $gutter;
-  padding-right: $gutter;
   position: absolute;
+  @extend %underline;
 }
 
 .header__link--left {
-  left: 0;
+  left: $gutter;
 }
 
 .header__link--right {
-  right: 0;
+  right: $gutter;
 }
 
 .food-nav__link {
-  padding-left: 0.4%;
-  padding-right: 0.4%;
+  display: block;
+  padding-left: $gutter;
+  @include flex-grow(1);
 }
 
-.food-nav__link__inner {
-  transition: border-color $duration--fast;
-  border-bottom-width: $underline-thickness;
-  border-bottom-style: solid;
-  border-bottom-color: transparent;
-  padding-left: 1px;
-  padding-right: 1px;
-  .food-nav:hover & {
-    border-bottom-color: transparent !important;
+.food-nav__link__start {
+  display: inline-block;
+  &:before {
+    content: '';
+    display: inline-block;
+    height: 1px;
+    background-color: currentColor;
+    vertical-align: middle;
+    transition: width $duration--fast, margin $duration--fast;
+    width: 0;
   }
+  .food-nav__link:hover &:before {
+    width: 1em;
+    margin-right: 1px;
+  }
+}
+
+.food-nav__link__final {
+  opacity: 0;
+  transition: opacity $duration--fast;
   .food-nav__link:hover & {
-    border-bottom-color: currentColor !important;
+    opacity: 1;
   }
 }
 

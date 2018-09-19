@@ -12,4 +12,4 @@ resources:
 position: 11
 ---
 
-Huāshēng (*peanuts*) are widely used in Taiwanese cuisine in a variety of applications. They may be crushed and used as a garnish (as in <a href="#g" class="js-nav-link" data-target="g">guabao</a>), sweetened and used as a dessert topping or filling, added to a stir-fry, blended into a sauce, or simply eaten on their own either roasted or boiled in-shell.
+Huāshēng (*peanuts*) are widely used in Taiwanese cuisine in a variety of applications. They may be crushed and used as a garnish (as in [guabao](#g){: .js-nav-link}), sweetened and used as a dessert topping or filling, added to a stir-fry, blended into a sauce, or simply eaten on their own either roasted or boiled in-shell.

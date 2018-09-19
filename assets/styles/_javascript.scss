@@ -17,16 +17,18 @@
   .js-nav-ghost {
     visibility: hidden;
   }
-  .js-nav-link.js-active {
-    .food-nav__link__inner {
-      border-bottom-color: currentColor;
-    }
+  .js-nav {
+    opacity: 0;
+    transition: opacity $duration--fast;
+  }
+}
+.food-nav__link__final {
+  .js-nav-link.js-active & {
+    opacity: 1;
   }
 }
 .js-is-sticky {
   .js-nav {
-    position: fixed;
-    top: 0;
-    bottom: auto;
+    opacity: 1;
   }
 }

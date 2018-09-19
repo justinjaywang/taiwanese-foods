@@ -1,5 +1,8 @@
 <nav class="food-nav js-nav">
   {%- for food in foods -%}
-    <a href="#{{ food.title }}" class="food-nav__link js-nav-link" data-target="{{ food.title }}"><span class="food-nav__link__inner">{{ food.title }}</span></a>
+    {% assign l = food.pinyin.size %}
+    <a href="#{{ food.title }}" class="food-nav__link js-nav-link" data-target="{{ food.title }}">
+      <span class="food-nav__link__start">{{ food.pinyin | slice: 0 }}</span><span class="food-nav__link__final">{{ food.pinyin | slice: 1,l }}</span>
+    </a>
   {%- endfor -%}
 </nav>
