@@ -11,6 +11,8 @@ resources:
   link: https://www.youtube.com/watch?v=S-Xr1zHUxc4
 # - text: Kevin Durant takes fans up on boba recommendation
 #   link: https://www.reddit.com/r/warriors/comments/58k94i/hey_rwarriors_my_names_kevin/d913vit/
+- text: How to Cook Boba (recipe)
+  link: https://www.angelwongskitchen.com/how-to-cook-boba-bubble-tea-pearls.html
 position: 1
 ---
 

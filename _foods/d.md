@@ -7,10 +7,10 @@ resources:
   link: https://www.youtube.com/watch?v=dUKbK8KFJzo&t=1m23s
 # - text: Taiwanese Breakfast With the Pancake King
 #   link: https://www.seriouseats.com/2015/05/taiwanese-breakfast-pancake-king.html
-- text: How America Killed Soy Milk
-  link: https://www.eater.com/2016/2/15/10995808/america-soymilk-fresh
 - text: Taiwan's Soy Story
   link: https://topics.amcham.com.tw/2016/01/taiwans-soy-story-american-soy-and-taiwanese-cuisine/
+- text: How America Killed Soy Milk
+  link: https://www.eater.com/2016/2/15/10995808/america-soymilk-fresh
 # - text: Soy Story
 #   link: http://eatingchina.com/articles/soystory.htm
 - text: Homemade Soy Milk (Recipe)
