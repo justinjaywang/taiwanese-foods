@@ -5,11 +5,10 @@
   h4,
   h5,
   h6 {
-    margin-top: $v*1.5;
     margin-bottom: $v*0.5;
   }
   p {
-    margin-bottom: $v*0.75;
+    margin-bottom: $v*0.75; //75;
   }
   a {
     @extend %underlined;

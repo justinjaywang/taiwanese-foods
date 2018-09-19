@@ -8,9 +8,9 @@ layout: homepage
 
 Pinyin, also called the Chinese Phonetic Alphabet, is a romanization system for Mandarin Chinese. Each of the alphabet's twenty-one initial letters is presented here with a corresponding food from Taiwan.
 
-Influenced by the various people that have inhabited the island over several centuries (most notably the Chinese, Japanese, and indigenous peoples) as well as geographic factors (location and climate mean plentiful seafood and a wide variety of fruits and vegetables), Taiwanese cuisine is a diverse blend of styles.
+Influenced by the various people that have inhabited the island over several centuries (most notably the Chinese, Japanese, and indigenous peoples) as well as geographic factors (seafood is plentiful, a wide range of fruits and vegetables are grown), Taiwanese cuisine is a blend of styles and innovations.
 
-The foods showcased are limited in number, but provide a reprentative overview of common ingredients and flavors. Though not every food necessarily originated in Taiwan, all have been embraced over the years by the island's food-obsessed populace.
+The showcased foods provide an overview of common ingredients and dishes. Though not every food originated in Taiwan, all have been embraced over the years by the island's food-obsessed populace.
 
 <!-- 
 Taiwanese food is , when you account for its geography and climate, and its history of several waves of immigration to the island over several centuries.
