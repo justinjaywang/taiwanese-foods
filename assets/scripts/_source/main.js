@@ -23,7 +23,7 @@ var initStickyNav = function () {
   var nav = document.querySelector('.js-nav');
   if (!nav) return;
 
-  var firstPost = document.querySelectorAll('[data-monitor]')[1]; // first post
+  var firstPost = document.querySelectorAll('[data-monitor]')[0];
   var firstPostwatcher = scrollMonitor.create(firstPost, 240);
   firstPostwatcher.stateChange(firstPostListener);
   firstPostListener(null, firstPostwatcher);
@@ -209,6 +209,5 @@ document.addEventListener('DOMContentLoaded', function () {
   initStickyNav();
   initScrollMonitor();
   initSmoothScroll();
-
   
 });
