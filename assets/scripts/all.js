@@ -30,7 +30,7 @@ var initStickyNav = function () {
   if (!nav) return;
 
   var firstPost = document.querySelectorAll('[data-monitor]')[0];
-  var firstPostwatcher = scrollMonitor.create(firstPost, 240);
+  var firstPostwatcher = scrollMonitor.create(firstPost, 200);
   firstPostwatcher.stateChange(firstPostListener);
   firstPostListener(null, firstPostwatcher);
 
@@ -53,7 +53,7 @@ var initScrollMonitor = function () {
   var watchers = [];
   for (i = 0, l = items.length; i < l; i++) {
     var item = items[i];
-    var watcher = scrollMonitor.create(item, 240);
+    var watcher = scrollMonitor.create(item, 200);
     watchers[i] = watcher;
     watcher.stateChange(listener);
   }
