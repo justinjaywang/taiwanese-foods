@@ -3,11 +3,11 @@ title: h
 pinyin: huāshēng
 chinese: 花生
 resources: 
-- text: Taiwanese Cold Noodles with Peanut Sauce (Recipe)
+- text: Taiwanese Cold Noodles with Peanut Sauce (recipe)
   link: http://eastmeetskitchen.com/videos/recipes/taiwanese-liang-mian-cold-noodles-with-peanut-sauce/
-- text: Sweet Peanut Soup (Recipe)
+- text: Sweet Peanut Soup (recipe)
   link: http://www.echoskitchen.com/2011/10/sweet-peanut-soup-xiamen-peanut-soup.html
-- text: Traditional Wok Roasted Peanuts (Recipe)
+- text: Traditional Wok Roasted Peanuts (recipe)
   link: https://thewoksoflife.com/2013/08/traditional-wok-roasted-peanuts/
 position: 11
 ---

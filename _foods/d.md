@@ -13,9 +13,9 @@ resources:
   link: https://www.eater.com/2016/2/15/10995808/america-soymilk-fresh
 # - text: Soy Story
 #   link: http://eatingchina.com/articles/soystory.htm
-- text: Homemade Soy Milk (Recipe)
+- text: Homemade Soy Milk (recipe)
   link: http://theabcchef.com/2014/08/homemade-soy-milk.html
-- text: Savory Soy Milk Soup (Recipe)
+- text: Savory Soy Milk Soup (recipe)
   link: https://thewoksoflife.com/2014/04/soy-milk-soup-w-fried-dough-dou-jiang/
 position: 5
 ---

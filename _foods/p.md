@@ -3,8 +3,8 @@ title: p
 pinyin: páigǔ
 chinese: 排骨
 resources: 
-- text: New York Times Recipe
-  link: https://www.nytimes.com
+- text: 
+  link: 
 position: 2
 ---
 
