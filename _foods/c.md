@@ -3,10 +3,10 @@ title: c
 pinyin: cōng yóu bǐng
 chinese: 蔥油餅
 resources: 
-# - text: Green Onion Pancakes (recipe)
-#   link: https://www.angelwongskitchen.com/green-onion-scallion-pancakes--340852783339173-c333ng-yoacuteub464ng.html
-- text: How to Make Green Onion Pancakes (video recipe)
-  link: https://www.youtube.com/watch?v=Iew9c7wDfgM
+- text: Green Onion Pancakes (recipe)
+  link: https://www.angelwongskitchen.com/green-onion-scallion-pancakes--340852783339173-c333ng-yoacuteub464ng.html
+# - text: How to Make Green Onion Pancakes (video recipe)
+#   link: https://www.youtube.com/watch?v=Iew9c7wDfgM
 # - text: Taiwanese Scallion Pancake Beef Rolls (recipe)
 #   link: https://www.angelwongskitchen.com/taiwanese-scallion-pancake-beef-rolls.html
 # - text: Spring Onion Flatbread (recipe)
