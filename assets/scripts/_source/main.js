@@ -23,9 +23,8 @@ var initStickyNav = function () {
   var nav = document.querySelector('.js-nav');
   if (!nav) return;
 
-  var firstPost = document.querySelectorAll('[data-monitor]')[0];
-
-  var firstPostwatcher = scrollMonitor.create(firstPost, 200);
+  var firstPost = document.querySelectorAll('[data-monitor]')[1]; // first post
+  var firstPostwatcher = scrollMonitor.create(firstPost, 240);
   firstPostwatcher.stateChange(firstPostListener);
   firstPostListener(null, firstPostwatcher);
 
@@ -34,6 +33,7 @@ var initStickyNav = function () {
       document.body.classList.add('js-is-sticky');
     } else {
       document.body.classList.remove('js-is-sticky');
+      removeActiveNav();
     }
   };
 };
@@ -47,7 +47,7 @@ var initScrollMonitor = function () {
   var watchers = [];
   for (i = 0, l = items.length; i < l; i++) {
     var item = items[i];
-    var watcher = scrollMonitor.create(item, 200);
+    var watcher = scrollMonitor.create(item, 240);
     watchers[i] = watcher;
     watcher.stateChange(listener);
   }
@@ -64,15 +64,21 @@ var initScrollMonitor = function () {
 };
 
 function setActiveNav(id) {
+  removeActiveNav();
+  if (id == 'home') return; // homepage
+  var activeLink = document.querySelector(".food-nav__link[href='#" + id + "']");
+  activeLink.classList.add('js-active');
+  setTimeout(function() {
+    activeLink.classList.remove('js-active');
+  }, 750);
+}
+
+function removeActiveNav() {
   var nav = document.querySelector('.js-nav');
   var navLinks = nav.querySelectorAll('.js-nav-link');
   for (i = 0, l = navLinks.length; i < l; i++) {
     navLinks[i].classList.remove('js-active');
   }
-
-  if (id == 'home') return; // homepage
-  var activeLink = nav.querySelector("[href='#" + id + "']");
-  activeLink.classList.add('js-active');
 }
 
 // smooth scroll for home link and nav links

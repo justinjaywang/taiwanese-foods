@@ -19,16 +19,22 @@
   }
   .js-nav {
     opacity: 0;
-    transition: opacity $duration--fast;
+    visibility: hidden;
+    transition: opacity $duration--fast, visibility 0s linear $duration--fast;
   }
-}
-.food-nav__link__final {
-  .js-nav-link.js-active & {
-    opacity: 1;
+  .js-is-sticky {
+    .js-nav {
+      opacity: 1;
+      visibility: visible;
+      transition: opacity $duration--fast, visibility 0s linear 0s;
+    }
   }
-}
-.js-is-sticky {
-  .js-nav {
-    opacity: 1;
+  .js-active {
+    .food-nav__link__start {
+      @extend %food-nav__link__start--glow;
+    }
+    .food-nav__link__final {
+      @extend %food-nav__link__final--glow;
+    }
   }
 }

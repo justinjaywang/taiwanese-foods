@@ -68,18 +68,20 @@
     transition: width $duration--fast, margin $duration--fast;
     width: 0;
   }
-  .food-nav__link:hover &:before {
-    width: 1em;
-    margin-right: 1px;
-  }
+}
+.food-nav__link:hover .food-nav__link__start:before,
+%food-nav__link__start--glow:before {
+  width: 1em;
+  margin-right: 1px;
 }
 
 .food-nav__link__final {
   opacity: 0;
   transition: opacity $duration--fast;
-  .food-nav__link:hover & {
-    opacity: 1;
-  }
+}
+.food-nav__link:hover .food-nav__link__final,
+%food-nav__link__final--glow {
+  opacity: 1;
 }
 
 .footer {
@@ -179,7 +181,7 @@
 }
 
 .food-post__header__letter {
-  margin-right: $gutter;
+  margin-right: $gutter*0.8333333;
 }
 
 .food-post__link {
