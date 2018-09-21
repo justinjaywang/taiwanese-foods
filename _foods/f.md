@@ -12,4 +12,4 @@ resources:
 position: 4
 ---
 
-Fènglí sū (*pineapple cake*) is a traditional Taiwanese pastry with a shortcake-like exterior and a pineapple jam filling. Historically a ceremonial food, pineapple cakes have now become one of Taiwan's best-selling souvenirs.
+Fènglí sū (*pineapple cake*) is a traditional Taiwanese pastry with a shortcake-like exterior and a pineapple jam filling. Historically a ceremonial food, pineapple cakes have become one of Taiwan's best-selling souvenirs.

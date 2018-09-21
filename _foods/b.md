@@ -18,4 +18,4 @@ resources:
 position: 1
 ---
 
-Bōbà nǎichá (*bubble milk tea* or simply *boba*) is a cold, sweet, milk tea drink containing chewy tapioca balls (boba) that you sip with a fat straw. A wide range of flavors (such as taro, strawberry, passionfruit) and toppings (grassy jelly, aloe, puddings) exist. Boba was invented in Taiwan during the 1980s and is among the country's most well-known food exports.
+Bōbà nǎichá (*bubble milk tea* or simply *boba*) is a cold, sweet, milk tea drink containing chewy tapioca balls (boba) that you sip with a fat straw. A wide range of flavors (such as taro, mango, lychee) and toppings (grass jelly, aloe, puddings) exist. Boba was invented in Taiwan during the 1980s and is among the country's most well-known food exports.
