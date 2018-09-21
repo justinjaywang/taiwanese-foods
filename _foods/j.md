@@ -3,35 +3,38 @@ title: j
 pinyin: jiǎozi
 chinese: 餃子
 resources: 
-- text: Pork & Leek Potstickers (recipe)
-  link: https://www.angelwongskitchen.com/porkandleekpotstickers.html
-- text: 6 ways to fold a dumpling (video)
-  link: https://www.youtube.com/watch?v=84-QPpmIleA
+- text: 5 Ways to Fold Dumplings (video)
+  link: https://www.youtube.com/watch?v=y4dawejj_yY
 - text: 17 Recipes for a Homemade Dumpling Feast
   link: https://www.seriouseats.com/2016/02/dumplings-roundup.html
 - text: How to Make Chinese Dumplings (recipe)
   link: https://www.chinasichuanfood.com/how-to-make-dumplings/
-- text: 
-  link: 
-- text: 
-  link: 
-- text: 
-  link: 
-- text: 
-  link: 
-- text: 
-  link: 
+# - text: Pork & Leek Potstickers (recipe)
+#   link: https://www.angelwongskitchen.com/porkandleekpotstickers.html
 position: 12
 ---
 
-Jiǎozi (*jiaozi*) are a Chinese dumpling, generally consisting of ground meat and finely chopped vegetables wrapped in a thinly rolled piece of dough. Jiaozi can be boiled (shuǐjiǎo, literally: "water dumplings"), steamed (zhēngjiǎo, literally: "steam dumplings"), or pan-fried (guōtiē, *potstickers*, literally: "pan stick"). Fillings vary by region and by family, but common ones include pork, mutton, beef, chicken, fish, shrimp, napa cabbage, scallions, leeks, celery, spinach, shiitake mushroom, woodear mushroom, carrot, garlic chives.
+Jiǎozi (*jiaozi*) are a Chinese dumpling, generally consisting of ground meat and finely chopped vegetables wrapped in a thin piece of dough. Jiaozi can be boiled, steamed, or pan-fried (called *guotie* or *potstickers*), and are especially popular during Chinese New Year when extended family members may gather together to help make them.
+
+Fillings vary by personal tastes and region, and can include pork, mutton, beef, chicken, shrimp, cabbage, scallions, leeks, mushroom, carrot, and garlic chives.
 
 <!-- 
+
+Pork and Vegetable Dumplings
+Chinese communities throughout the world have been celebrating century-old traditions each Lunar New Year. One of the more popular symbolic customs is making dumplings to ring in the new year. Commonly called jiaozi, Chinese dumplings are a year round favorite, but hold greater significance during Chinese New Year. Historically, dumplings represented the symbol of wealth and prosperity due to their resemblance to little gold ingots (the currency used during the Ming Dynasty). Some take the tradition further by hiding a clean coin in the filling of one dumpling, so that the lucky person who finds it is deemed to have even more good fortune in the coming year.
+
+Varying widely from the family’s region of origin, most Chinese families have their special recipe and preferred methods of making jiaozi. Chinese dumplings are typically made of a simple fillings of minced meat, seafood and vegetables, or a combination of ingredients wrapped in a thin skin of wheat dough. You can be ambitious and make your own dumpling skins; however, I prefer to save time in the kitchen and use a variety of wrappers available at Asian markets, leaving me more time to savor the tasty dumplings.
+
+
+Jiaozi are especially popular during the holidays not only for their ritual significance but also because more friends and family are present to help wrap them, making their preparation a family affair
+
+
+
 
 - Common dumpling meat fillings include pork, mutton, beef, chicken, fish, and shrimp, which are usually mixed with chopped vegetables. Popular vegetable fillings include napa cabbage, scallion (spring onions), leek, celery, spinach, mushroom, edible black fungus, carrot, and garlic chives.
 - Popular meat fillings include ground meat (usually pork, but can instead be beef or chicken), shrimp, and even fish. Popular mixtures include pork with Chinese cabbage, pork with garlic chives, pork and shrimp with vegetables, pork with spring onion, garlic chives with scrambled eggs. Filling mixtures will vary depending on personal tastes and region. Jiaozi are usually boiled, steamed or fried and continue to be a traditional dish eaten on Chinese New Year's Eve, the evening before Chinese New Year, and special family reunions.
  -->
- 
+
 <!--
 
 are a kind of Chinese dumpling, commonly eaten in China and other parts of East Asia. They are one of the major foods eaten during the Chinese New Year and year-round in the northern provinces. Though considered part of Chinese cuisine, jiaozi are popular in other parts of Asia and in Western countries.
