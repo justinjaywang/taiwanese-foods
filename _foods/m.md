@@ -28,4 +28,4 @@ position: 3
 
 Mántou (*mantou* or *Chinese steamed bun*) is a steamed bread eaten in Chinese cuisine. In northern parts of China where wheat, rather than rice, is grown, mantou is a staple food. In Taiwan, it is popular as a breakfast food or a portable snack or meal.
 
-The term "mantou" refers to plain or unfilled buns, while bāozi (*baozi*) is a steamed bun with a savory or sweet filling.
+The term *mantou* refers to plain or unfilled buns, while *baozi* is a steamed bun with a savory or sweet filling.
