@@ -20,4 +20,4 @@ resources:
 position: 18
 ---
 
-Ròu zào fàn (*minced pork rice*, *braised pork rice*, *rou zao fan*) or lǔ ròu fàn (*lu rou fan*) is a Taiwanese dish of Chinese origin consisting of ground pork or minced pork belly, braised in soy sauce, fried shallots, and spices, served over rice. Beloved as a comfort food, lu rou fan is a staple of Taiwanese home kitchens and eateries alike. It can be eaten as a meal on its own or as the base of a meal that includes various other side dishes.
+Ròu zào fàn (*minced pork rice*, *braised pork rice*, *rou zao fan*) or lǔ ròu fàn (*lu rou fan*) is a Taiwanese dish of Chinese origin made of ground or minced pork, braised in soy sauce, fried shallots, and five-spice powder, and served over rice. Beloved as a comfort food, lu rou fan is a staple of Taiwanese home kitchens and eateries.
