@@ -17,13 +17,7 @@ resources:
   link: https://thewoksoflife.com/2015/06/lu-rou-fan-taiwanese-braised-pork-rice-bowl/
 - text: Taiwan Pork Ragu on Rice (recipe)
   link: http://ladyandpups.com/2014/02/24/taiwan-pork-ragu-on-rice-lu-rou-fan-eng/
-- text: 
-  link: 
-- text: 
-  link: 
-- text: 
-  link: 
 position: 18
 ---
 
-Ròu zào fàn (*minced pork rice*, *braised pork rice*, *rou zao fan*), widely called lu rou fan, is a classic Taiwanese rice dish consisting of ground pork or minced pork belly, braised slowly in soy sauce with fried shallots and other spices, served over rice. Lu rou fan is a staple of eateries and home kitchens alike, and is beloved as a comfort food. It can be eaten as a meal on its own or as the base of a meal that includes various other side dishes.
+Ròu zào fàn (*minced pork rice*, *braised pork rice*, *rou zao fan*) or lǔ ròu fàn (*lu rou fan*) is a Taiwanese dish of Chinese origin consisting of ground pork or minced pork belly, braised in soy sauce, fried shallots, and spices, served over rice. Beloved as a comfort food, lu rou fan is a staple of Taiwanese home kitchens and eateries alike. It can be eaten as a meal on its own or as the base of a meal that includes various other side dishes.
