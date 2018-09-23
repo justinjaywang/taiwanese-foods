@@ -86,7 +86,7 @@
 
 .footer {
   text-align: center;
-  margin-top: $v*6;
+  margin-top: $v*5;
   padding-bottom: $v*2.5;
   @extend %h5;
 }
@@ -119,16 +119,12 @@
   margin-top: 9em;
   margin-bottom: 6em;
   @media (max-width: $bp-xs-sm) {
-    margin-top: 7.5em;
+    margin-top: 8em;
   }
 }
 
 .title {
   margin-bottom: $v*0.166667;
-}
-
-.food-posts {
-  margin-bottom: $v*4; 
 }
 
 .food-post__banner-wrap {
@@ -146,9 +142,6 @@
   }
   @include contain;
   margin-bottom: $v*2;
-  @media (max-width: $bp-xs-sm) {
-    margin-bottom: $v*1.5;
-  }
 }
 
 .food-post__header {
