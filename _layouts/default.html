@@ -9,7 +9,7 @@
     <meta property="og:image" content="{{ site.url }}{{ site.social_image }}" />
     <meta property="og:image:width" content="1400" />
     <meta property="og:image:height" content="900" />
-    <title>{{ page.title | default: site.title }}{% if page.layout != 'homepage' %} — {{ site.title }}{% endif %}</title>
+    <title>{{ site.title }}{% if page.layout != 'homepage' %} / {{ page.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
     <link rel="stylesheet" href="/assets/styles/all.css" />
     <link rel="icon" href="/assets/images/favicon.ico" />

@@ -1,5 +1,5 @@
 ---
-title: Archive
+title: All
 layout: archive
 permalink: "/all/"
 ---
