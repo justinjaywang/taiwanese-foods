@@ -20,4 +20,4 @@ resources:
 position: 1
 ---
 
-Bōbà nǎichá (*bubble milk tea* or simply *boba*) is a cold, sweet, milk tea drink containing tapioca balls (boba) or other toppings. Boba originated in Taiwan in the 1980s and is among the country's most well-known food exports.
+Bōbà nǎichá (*bubble milk tea* or simply *boba*) is a cold, sweet, milk tea drink containing tapioca balls (boba) or other toppings. Boba originated in Taiwan in the 1980s and is among the country's best-known food exports.
