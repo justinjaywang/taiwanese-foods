@@ -1,6 +1,6 @@
 ---
 title: p
-pinyin: pái gǔ
+pinyin: páigǔ
 chinese: 排骨
 resources: 
 - text: Taiwan Railway Mealbox
@@ -12,4 +12,4 @@ resources:
 position: 2
 ---
 
-Pái gǔ (*pork chop*) is a Taiwanese dish consisting of a marinated, breaded, and deep-fried or braised pork chop. The pork chop is often served along with an array of side dishes over rice as part of a bian dang (bento boxed lunch).
+Páigǔ (*pork chop*) is a Taiwanese dish consisting of a marinated, breaded, and deep-fried or braised pork chop. The pork chop is often served along with an array of side dishes over rice as part of a bian dang (bento boxed lunch).
