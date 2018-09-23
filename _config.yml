@@ -42,7 +42,7 @@ plugins:
 - jekyll-seo-tag
 twitter:
   username: justinjaywang
-logo: /assets/images/avatar.png
+social_image: /assets/images/beef-noodle-soup.jpg
 markdown: kramdown
 kramdown:
   input: GFM
