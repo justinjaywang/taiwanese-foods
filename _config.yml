@@ -1,6 +1,6 @@
 title: Foods from Taiwan
 timezone: America/Los_Angeles
-url: http://fftw.justinjay.wang
+url: https://fftw.justinjay.wang
 description: A pinyin alphabet book celebrating foods from Taiwan.
 collections:
   posts:
@@ -54,4 +54,4 @@ sass:
   sass_dir: assets/styles/
   style: compressed
 repository: justinjaywang/foods-from-taiwan
-google_analytics: 
+google_analytics: UA-15132368-17
