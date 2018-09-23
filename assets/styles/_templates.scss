@@ -85,8 +85,9 @@
 }
 
 .footer {
-  margin-top: $v*8;
-  padding-bottom: $v*3;
+  text-align: center;
+  margin-top: $v*6;
+  padding-bottom: $v*2.5;
   @extend %h5;
 }
 
