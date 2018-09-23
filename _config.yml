@@ -40,6 +40,8 @@ plugins:
 - jekyll-sitemap
 - jekyll-redirect-from
 - jekyll-seo-tag
+twitter:
+  username: justinjaywang
 logo: /assets/images/avatar.png
 markdown: kramdown
 kramdown:
