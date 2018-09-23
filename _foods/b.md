@@ -11,6 +11,8 @@ resources:
 #   link: https://www.youtube.com/watch?v=S-Xr1zHUxc4
 # - text: Kevin Durant takes fans up on boba recommendation
 #   link: https://www.reddit.com/r/warriors/comments/58k94i/hey_rwarriors_my_names_kevin/d913vit/
+- text: The Many Flavors of Bubble Tea
+  link: https://www.thespruceeats.com/different-flavors-of-bubble-tea-766444
 - text: How to Cook Boba (recipe)
   link: https://www.angelwongskitchen.com/how-to-cook-boba-bubble-tea-pearls.html
 # - text: How to make Bubble Tea (video recipe)
@@ -18,4 +20,4 @@ resources:
 position: 1
 ---
 
-Bōbà nǎichá (*bubble milk tea* or simply *boba*) is a cold, sweet, milk tea drink containing chewy tapioca balls (boba) that you sip with a fat straw. A wide range of flavors (such as taro, mango, lychee) and toppings (grass jelly, aloe, puddings) exist. Boba was invented in Taiwan during the 1980s and is among the country's most well-known food exports.
+Bōbà nǎichá (*bubble milk tea* or simply *boba*) is a cold, sweet, milk tea drink containing tapioca balls (boba) or other toppings. Boba originated in Taiwan in the 1980s and is among the country's most well-known food exports.
