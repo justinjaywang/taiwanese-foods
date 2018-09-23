@@ -1,33 +1,3 @@
-<footer class="footer container">
-  <hr>
-  <div class="row">
-    <div class="footer__section col col-3 xs-col-12">
-      <h5 class="footer__section__title">A project by</h5>
-      <div class="small">
-        <a href="https://justinjay.wang">Justin Jay Wang (王淳駿)</a>
-      </div>
-    </div>
-    <div class="footer__section col col-3 xs-col-12">
-      <h5 class="footer__section__title">More on Taiwanese Food</h5>
-      <ul class="small">
-        {% for item in site.data.food %}
-          <li><a href="{{ item.link }}" target="_blank">{{ item.text | markdownify }}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
-    <div class="footer__section col col-3 xs-col-12">
-      <h5 class="footer__section__title">Pinyin Resources</h5>
-      <ul class="small">
-        {% for item in site.data.pinyin %}
-          <li><a href="{{ item.link }}" target="_blank">{{ item.text | markdownify }}</a></li>
-        {% endfor %}
-      </ul>
-    </div>
-    <div class="footer__section col col-3 xs-col-12">
-      <h5 class="footer__section__title">Thanks for visiting</h5>
-      <div class="small">
-        If you enjoyed this, please share with all your friends
-      </div>
-    </div>
-  </div>
+<footer class="footer container container--narrow align-center">
+  A project by <a href="https://justinjay.wang">Justin Jay Wang (王淳駿)</a>
 </footer>
