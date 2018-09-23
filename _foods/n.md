@@ -20,4 +20,4 @@ resources:
 position: 7
 ---
 
-Niúròu miàn (*beef noodle soup*) is a Chinese and Taiwanese dish made of stewed or red-braised beef, beef broth, vegetables, and noodles. In Taiwan, beef noodle soup is especially popular and considered a national dish. There, it is often served along with cold side dishes and topped with suan cai (Chinese sauerkraut).
+Niúròu miàn (*beef noodle soup*) is a Chinese and Taiwanese dish of stewed or red-braised beef, beef broth, vegetables, and noodles. In Taiwan, beef noodle soup is especially popular and considered a national dish. There, it is often served along with cold side dishes and topped with suan cai (Chinese sauerkraut).
