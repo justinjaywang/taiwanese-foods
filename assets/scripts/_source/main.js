@@ -34,6 +34,7 @@ var initStickyNav = function () {
     } else {
       document.body.classList.remove('js-is-sticky');
       removeActiveNav();
+      updateUrl(null);
     }
   };
 };
@@ -65,7 +66,6 @@ var initScrollMonitor = function () {
 
 function setActiveNav(id) {
   removeActiveNav();
-  if (id == 'home') return; // homepage
   var activeLink = document.querySelector(".food-nav__link[href='#" + id + "']");
   activeLink.classList.add('js-active');
   setTimeout(function() {
@@ -196,7 +196,7 @@ function scrollTo (destination, duration, easing, callback) {
 // url rewriting
 
 function updateUrl(url) {
-  if (url && url != 'home') {
+  if (url) {
     window.history.replaceState(null, null, '/#' + url);
   } else { // homepage
     window.history.replaceState(null, null, '/');
