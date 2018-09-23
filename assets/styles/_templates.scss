@@ -114,9 +114,10 @@
 }
 
 .main--homepage__header__title {
+  max-width: 54em;
   text-align: center;
   margin-top: 9em;
-  margin-bottom: 4.5em;
+  margin-bottom: 6em;
   @media (max-width: $bp-xs-sm) {
     margin-top: 7.5em;
   }

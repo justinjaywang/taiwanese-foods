@@ -107,10 +107,10 @@ h6,
 h1,
 .h1,
 %h1 {
-  font-size: $font-size--largest;
+  font-size: 6em;
   line-height: $line-height--tight;
   @media (max-width: $bp-md-lg) {
-    font-size: 8vw;
+    font-size: 12vw;
   }
 }
 
