@@ -5,11 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     {% seo title=false %}
-    {% unless page.image %}
-      <meta property="og:image" content="{{ site.url }}{{ site.logo }}" />
-      <meta property="og:image:width" content="240" />
-      <meta property="og:image:height" content="240" />
-    {% endunless %}
+    <meta name="twitter:card" content="summary_large_image">
+    <meta property="og:image" content="{{ site.url }}{{ site.logo }}" />
+    <meta property="og:image:width" content="1400" />
+    <meta property="og:image:height" content="900" />
     <title>{{ page.title | default: site.title }}{% if page.layout != 'homepage' %} — {{ site.title }}{% endif %}</title>
     <meta name="description" content="{{ site.description }}">
     <link rel="stylesheet" href="/assets/styles/all.css" />
