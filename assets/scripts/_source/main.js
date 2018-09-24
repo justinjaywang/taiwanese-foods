@@ -104,7 +104,7 @@ var initSmoothScroll = function () {
     navLinks[i].addEventListener('click', function (e) {
       e.preventDefault();
       var href = this.getAttribute('href');
-      var id = href.replace('#', '');
+      var id = href.substr(1);
       scrollTo(
         document.querySelector('#' + id),
         500,
@@ -206,8 +206,10 @@ function updateUrl(url) {
 document.addEventListener('DOMContentLoaded', function () {
 
   initLazyLoad();
-  initStickyNav();
   initScrollMonitor();
   initSmoothScroll();
+  setTimeout(function() {
+    initStickyNav();
+  }, 0);
   
 });
