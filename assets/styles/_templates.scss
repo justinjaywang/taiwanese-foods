@@ -87,7 +87,7 @@
 .footer {
   text-align: center;
   margin-top: $v*5;
-  padding-bottom: $v*3;
+  padding-bottom: $v*2.5;
   @extend %h5;
 }
 
@@ -138,6 +138,9 @@
     padding-bottom: 56.25%; // 9/16
   }
   @media (max-width: $bp-xs-sm) {
+    padding-bottom: 62.5%; // 5/8
+  }
+  @media (max-width: 414px) {
     padding-bottom: 100%;
   }
   @include contain;
@@ -206,7 +209,7 @@
 }
 
 .main--archive {
-  margin-top: $v*6;
+  margin-top: $v*5;
 }
 
 .food-card {
@@ -218,7 +221,8 @@
   margin-bottom: $gutter;
   padding-bottom: 133.333333%;
   @media (max-width: $bp-xs-sm) {
-    padding-bottom: 100%;
+    padding-bottom: 125%;
+    margin-bottom: 0;
   }
 }
 
