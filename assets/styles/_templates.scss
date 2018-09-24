@@ -137,8 +137,8 @@
   @media (max-width: 1120px) {
     padding-bottom: 56.25%; // 9/16
   }
-  @media (max-width: 640px) {
-    padding-bottom: 360px;
+  @media (max-width: $bp-xs-sm) {
+    padding-bottom: 100%;
   }
   @include contain;
   margin-bottom: $v*2;
@@ -217,6 +217,9 @@
   min-height: 320px;
   margin-bottom: $gutter;
   padding-bottom: 133.333333%;
+  @media (max-width: $bp-xs-sm) {
+    padding-bottom: 100%;
+  }
 }
 
 .food-card__item {
