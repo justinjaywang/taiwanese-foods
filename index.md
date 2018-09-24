@@ -1,5 +1,5 @@
 ---
-title: 21 Taiwanese Foods
+title: Foods from Taiwan
 subtitle: A pinyin alphabet book
 layout: homepage
 # https://www.tastecooking.com/new-york-citys-taiwanese-food-boom-its-about-damn-time/
