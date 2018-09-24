@@ -10,8 +10,8 @@
   top: 0;
   left: 0;
   right: 0;
-  margin-top: $gutter;
-  margin-bottom: $gutter;
+  padding-top: $gutter;
+  padding-bottom: $gutter;
   z-index: 2;
 }
 
@@ -24,9 +24,9 @@
   z-index: 1;
   @include flex;
   @include flex-direction(column);
-  @include justify-content(space-around);
-  padding-top: 12vh;
-  padding-bottom: 12vh;
+  @include justify-content(space-between);
+  padding-top: 10vh;
+  padding-bottom: calc(10vh - 1em);
   @media (max-width: $bp-hide-nav) {
     display: none;
   }
@@ -86,7 +86,7 @@
 
 .footer {
   text-align: center;
-  margin-top: $v*5;
+  margin-top: $v*2;
   padding-bottom: $v*2.5;
   @extend %h5;
 }
@@ -108,20 +108,27 @@
   display: block;
 }
 
+.main--archive {
+  margin-top: $v*5;
+  margin-bottom: $v*5;
+}
+
 .main--homepage__header {
-  padding-bottom: $v*4;
   position: relative;
+  height: 100vh;
 }
 
 .main--homepage__header__title {
-  max-width: 54em;
   text-align: center;
-  margin-top: 9em;
-  margin-bottom: 6em;
-  @media (max-width: $bp-xs-sm) {
-    margin-top: 8em;
-  }
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  right: 0;
+  @include transform(translateY(-50%));
+  max-width: 54em;
 }
+
 
 .title {
   margin-bottom: $v*0.166667;
@@ -169,7 +176,7 @@
 .food-post svg {
   position: relative;
   top: 0.45em;
-  left: -0.1em;
+  left: -0.05em;
   @media (max-width: $bp-xs-sm) {
     top: 0.35em;
   }
@@ -208,10 +215,6 @@
   }
 }
 
-.main--archive {
-  margin-top: $v*5;
-}
-
 .food-card {
   text-align: center;
   display: block;
@@ -242,7 +245,7 @@
   padding: 8.333333%;
   @include transition-transform($duration--fast $easeInOutQuart);
   .food-card:hover & {
-    @include transform(translateY(calc(-50% - 0.75em)));
+    @include transform(translateY(calc(-50% - 0.5em)));
   }
 }
 

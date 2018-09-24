@@ -43,5 +43,7 @@ Push to GitHub repo and have it automatically deploy.
 ---
 ## To Do
 
-- Get back button to work
-- Add avatar image, favicon
+- Title section, resolve "about" content
+- Content
+    - decide how italics, pinyin, english names co-exist
+- Fix mobile Safari anchor link bug

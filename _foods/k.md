@@ -3,7 +3,7 @@ title: k
 pinyin: kǔguā
 chinese: 苦瓜
 resources: 
-- text: Is This the Bitterest Type of Produce (That People Willingly Eat)?
+- text: Is This the Bitterest Type of Produce That People Willingly Eat?
   link: https://food52.com/blog/16848-is-this-the-bitterest-type-of-produce-that-people-willingly-eat
 - text: Bitter Melon with Salted Egg (video recipe)
   link: https://www.youtube.com/watch?v=zn1zGeOQA5A
