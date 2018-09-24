@@ -240,6 +240,10 @@
 .food-card__item--image {
   top: 47.5%;
   padding: 8.333333%;
+  @include transition-transform($duration--fast $easeInOutQuart);
+  .food-card:hover & {
+    @include transform(translateY(calc(-50% - 0.75em)));
+  }
 }
 
 .food-card__item--title {
