@@ -17,4 +17,4 @@ resources:
 position: 9
 ---
 
-*Guàbāo* (pork belly buns or, ambiguously, bao) is a [xiaochi](https://en.wikipedia.org/wiki/Xiaochi) dish popular in Taiwan, traditionally consisting of braised pork belly sandwiched in a steamed bun and garnished with pickled mustard greens, fresh cilantro, crushed peanuts, and sugar.
+*Guàbāo* (pork belly bun) is a [xiaochi](https://en.wikipedia.org/wiki/Xiaochi) dish popular in Taiwan, traditionally consisting of braised pork belly sandwiched in a steamed bun and garnished with pickled mustard greens, fresh cilantro, crushed peanuts, and sugar.
