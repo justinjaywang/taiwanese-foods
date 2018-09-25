@@ -1,6 +1,7 @@
 ---
 title: zh
-pinyin: zhúsǔn
+pinyin: zhusun
+# pinyin: zhúsǔn
 chinese: 竹筍
 resources: 
 # - text: Bamboo shoot
@@ -14,4 +15,4 @@ resources:
 position: 15
 ---
 
-Zhúsǔn (*bamboo shoots*) are popular in Taiwan in the winter and spring, when many varieties are harvested for use in numerous dishes and broths. When fresh, they are sweet, crisp, nutty, and creamy. Bamboo shoots are also available year-round dried, frozen, canned, or pickled.
+*Zhúsǔn* (bamboo shoots) are popular in Taiwan in the winter and spring, when many varieties are harvested for use in numerous dishes and broths. When fresh, they are sweet, crisp, nutty, and creamy. Bamboo shoots are also available year-round dried, frozen, canned, or pickled.

@@ -1,6 +1,7 @@
 ---
 title: s
-pinyin: sānbēijī
+pinyin: sanbeiji
+# pinyin: sānbēijī
 chinese: 三杯雞
 resources: 
 - text: A Taste of Taiwan
@@ -30,4 +31,4 @@ resources:
 position: 21
 ---
 
-Sānbēijī (*sanbeiji*, literally: "three cup chicken") is a popular Taiwanese dish with roots in southern China. The dish derives its name from the equal parts of soy sauce, rice wine, and sesame oil used to cook the chicken (though many deviate from this 1:1:1 ratio).
+*Sānbēijī* (sanbeiji, literally: "three cup chicken") is a popular Taiwanese dish with roots in southern China. The dish derives its name from the equal parts of soy sauce, rice wine, and sesame oil used to cook the chicken (though many deviate from this 1:1:1 ratio).

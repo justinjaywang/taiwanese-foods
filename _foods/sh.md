@@ -1,6 +1,7 @@
 ---
 title: sh
-pinyin: shìzi
+pinyin: shizi
+# pinyin: shìzi
 chinese: 柿子
 resources: 
 - text: Sweet Taiwan Persimmons
@@ -12,4 +13,4 @@ resources:
 position: 17
 ---
 
-Shìzi (*persimmon*) is a fruit native to China, in season from September to January in Taiwan. There are two types, astringent and non-astringent. Astringent varieties are often dried and eaten as a snack or used to make drinks or desserts. Non-astringent varieties (pictured) may be eaten fresh while still very firm and remain edible when soft.
+*Shìzi* (persimmon) is a fruit native to China, in season from September to January in Taiwan. There are two types, astringent and non-astringent. Astringent varieties are often dried and eaten as a snack or used to make drinks or desserts. Non-astringent varieties (pictured) may be eaten fresh while still very firm and remain edible when soft.

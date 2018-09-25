@@ -1,6 +1,7 @@
 ---
 title: q
-pinyin: qiū dāo yú
+pinyin: qiu dao yu
+# pinyin: qiū dāo yú
 chinese: 秋刀魚
 resources: 
 - text: Pacific saury
@@ -12,6 +13,6 @@ resources:
 position: 13
 ---
 
-Qiū dāo yú (*mackerel pike*, *Pacific saury*, Japanese: *sanma*, literally: "autumn knife fish") is a fish used in Taiwanese cuisine but most notably in Japanese and Korean cuisines. It is often grilled whole, but can also be deep-fried or braised.
+*Qiū dāo yú* (mackerel pike, Pacific saury, Japanese: sanma, literally: "autumn knife fish") is a fish used in Taiwanese cuisine but most notably in Japanese and Korean cuisines. It is often grilled whole, but can also be deep-fried or braised.
 
-The intestines are very bitter, but some people enjoy the taste and prefer to leave them in. Renowned Japanese filmmaker Yasujirō Ozu's 1962 film [*An Autumn Afternoon*](https://en.wikipedia.org/wiki/An_Autumn_Afternoon) literally translates to "The Taste of Sanma."
+The intestines are very bitter, but some people revere the taste. Renowned Japanese filmmaker Yasujirō Ozu's 1962 film [*An Autumn Afternoon*](https://en.wikipedia.org/wiki/An_Autumn_Afternoon) literally translates to "The Taste of Sanma."

@@ -1,6 +1,7 @@
 ---
 title: k
-pinyin: kǔguā
+pinyin: kugua
+# pinyin: kǔguā
 chinese: 苦瓜
 resources: 
 - text: Is This the Bitterest Type of Produce That People Willingly Eat?
@@ -12,4 +13,4 @@ resources:
 position: 10
 ---
 
-Kǔguā (*bitter melon*) is a vegetable used in Asian cuisines, typically in stir-fries (often with pork and fermented black soybeans), stews and soups, and herbal teas. Bitter melon is valued for its extremely bitter flavor and health benefits.
+*Kǔguā* (bitter melon) is a vegetable used in Asian cuisines, typically in stir-fries (often with pork and fermented black soybeans), stews and soups, and herbal teas. Bitter melon is valued for its extremely bitter flavor and health benefits.

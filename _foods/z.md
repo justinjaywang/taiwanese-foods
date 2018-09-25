@@ -1,6 +1,7 @@
 ---
 title: z
-pinyin: zòngzi
+pinyin: zongzi
+# pinyin: zòngzi
 chinese: 粽子
 resources: 
 - text: The Legends Behind the Dragon Boat Festival
@@ -18,4 +19,4 @@ resources:
 position: 19
 ---
 
-Zòngzi (*zongzi* or *sticky rice dumplings*) are a traditional Chinese food made of glutinous rice stuffed with different fillings, wrapped in bamboo leaves and boiled or steamed. Traditionally eaten during the [Duanwu Festival](https://en.wikipedia.org/wiki/Dragon_Boat_Festival){: target="_blank"} (Dragon Boat Festival), they can now be found year-round and include savory or sweet fillings that vary by region. Taiwan-style zongzi can include salted duck eggs, pork belly, [peanuts](#h){: .js-nav-link}, dried shrimp, and shiitake mushrooms.
+*Zòngzi* (zongzi or sticky rice dumplings) are a traditional Chinese food made of glutinous rice stuffed with different fillings, wrapped in bamboo leaves and boiled or steamed. Traditionally eaten during the [Duanwu Festival](https://en.wikipedia.org/wiki/Dragon_Boat_Festival){: target="_blank"} (Dragon Boat Festival), they can now be found year-round and include savory or sweet fillings that vary by region. Taiwan-style zongzi can include salted duck eggs, pork belly, [peanuts](#h){: .js-nav-link}, dried shrimp, and shiitake mushrooms.

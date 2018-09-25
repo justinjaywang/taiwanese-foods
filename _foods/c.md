@@ -1,6 +1,7 @@
 ---
 title: c
-pinyin: cōng yóu bǐng
+pinyin: cong you bing
+# pinyin: cōng yóu bǐng
 chinese: 蔥油餅
 resources: 
 - text: Green Onion Pancakes (recipe)
@@ -22,4 +23,4 @@ resources:
 position: 20
 ---
 
-Cōng yóu bǐng (*cong you bing* or *scallion pancakes*) are a savory, unleavened flatbread folded with oil and minced scallions (green onions). Cong you bing are typically shallow fried or grilled and served as both a street food and restaurant dish. In Taiwan, variaions include dàn bǐng (*egg pancakes*, commonly eaten for breakfast) and niúròu juǎnbǐng (*beef rolls*).
+*Cōng yóu bǐng* (cong you bing or scallion pancakes) are a savory, unleavened flatbread folded with oil and minced scallions. Cong you bing are typically shallow fried or grilled and served as both a street food and restaurant dish. In Taiwan, variations include *dàn bǐng* (egg pancakes) and *niúròu juǎnbǐng* (beef rolls).

@@ -1,6 +1,7 @@
 ---
 title: n
-pinyin: niúròu miàn
+pinyin: niurou mian
+# pinyin: niúròu miàn
 chinese: 牛肉麵
 resources: 
 # - text: Beef noodle soup
@@ -20,4 +21,4 @@ resources:
 position: 7
 ---
 
-Niúròu miàn (*beef noodle soup*) is a Chinese and Taiwanese dish of stewed or red-braised beef, beef broth, vegetables, and noodles. In Taiwan, beef noodle soup is especially popular and considered a national dish. There, it is often served along with cold side dishes and topped with sour pickled vegetables.
+*Niúròu miàn* (beef noodle soup) is a Chinese and Taiwanese dish of stewed or red-braised beef, beef broth, vegetables, and noodles. In Taiwan, beef noodle soup is especially popular and considered a national dish. There, it is often served along with cold side dishes and topped with sour pickled vegetables.

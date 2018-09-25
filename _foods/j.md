@@ -1,6 +1,7 @@
 ---
 title: j
-pinyin: jiǎozi
+pinyin: jiaozi
+# pinyin: jiǎozi
 chinese: 餃子
 resources: 
 - text: 5 Ways to Fold Dumplings (video)
@@ -14,6 +15,6 @@ resources:
 position: 12
 ---
 
-Jiǎozi (*jiaozi*) are a Chinese dumpling, generally made of ground meat and finely chopped vegetables wrapped in a thin piece of dough. Jiaozi can be boiled, steamed, or pan-fried (called *guotie* or *potstickers*), and are especially popular during Chinese New Year, when extended family members may gather together to help make them.
+*Jiǎozi* (jiaozi) are a Chinese dumpling, generally made of ground meat and finely chopped vegetables wrapped in a thin piece of dough. Jiaozi can be boiled, steamed, or pan-fried (called guotie or potstickers), and are especially popular during Chinese New Year, when extended family members may gather together to help make them.
 
 Fillings vary by personal tastes and region, and can include pork, mutton, beef, chicken, shrimp, cabbage, scallions, leeks, mushroom, carrot, and garlic chives.

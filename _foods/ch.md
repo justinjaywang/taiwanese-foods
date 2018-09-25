@@ -1,6 +1,7 @@
 ---
 title: ch
-pinyin: chòu dòufu
+pinyin: chou doufu
+# pinyin: chòu dòufu
 chinese: 臭豆腐
 resources: 
 - text: Where Stinky Tofu Is at Its Malodorous Best
@@ -12,4 +13,4 @@ resources:
 position: 16
 ---
 
-Chòu dòufu (*stinky tofu*) is a fermented tofu popular as a street food in Taiwan. In night markets, stinky tofu is commonly served deep-fried and topped with pickled cabbage, but can also be eaten cold, steamed, or stewed. Traditionally prepared in a brine of fermented milk, vegetables, and meat for up to several months, stinky tofu is said to have an odor resembling that of rotten garbage or smelly feet.
+*Chòu dòufu* (stinky tofu) is a fermented tofu popular as a street food in Taiwan. In night markets, stinky tofu is commonly served deep-fried and topped with pickled cabbage, but can also be eaten cold, steamed, or stewed. Traditionally prepared in a brine of fermented milk, vegetables, and meat for up to several months, stinky tofu is said to have an odor resembling that of rotten garbage or smelly feet.

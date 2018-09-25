@@ -1,6 +1,7 @@
 ---
 title: m
-pinyin: mántou
+pinyin: mantou
+# pinyin: mántou
 chinese: 饅頭
 resources: 
 # - text: How to Make Chinese Steamed Buns from Scratch (recipe)
@@ -26,6 +27,6 @@ resources:
 position: 3
 ---
 
-Mántou (*mantou* or *Chinese steamed bun*) is a steamed bread eaten in Chinese cuisine. In Taiwan, it is popular as a breakfast food or as a portable snack or meal.
+*Mántou* (mantou or Chinese steamed bun) is a steamed bread eaten in Chinese cuisine. In Taiwan, it is popular as a breakfast food or as a portable snack or meal.
 
-The term *mantou* refers to plain or unfilled buns, while *baozi* is a steamed bun with a savory or sweet filling.
+The term "mantou" refers to plain or unfilled buns, while "baozi" is a steamed bun with a savory or sweet filling.
