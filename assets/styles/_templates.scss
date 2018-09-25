@@ -243,7 +243,7 @@
 .food-card__item--image {
   top: 47.5%;
   padding: 8.333333%;
-  @include transition-transform($duration--fast $easeInOutQuart);
+  @include transition-transform(0.15s $easeInOutQuad);
   .food-card:hover & {
     @include transform(translateY(calc(-50% - 0.5em)));
   }
