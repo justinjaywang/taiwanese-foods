@@ -25,8 +25,8 @@
   @include flex;
   @include flex-direction(column);
   @include justify-content(space-between);
-  padding-top: 10vh;
-  padding-bottom: calc(10vh - 1em);
+  padding-top: $gutter;
+  padding-bottom: $gutter - 0.5rem;
   @media (max-width: $bp-hide-nav) {
     display: none;
   }
@@ -52,7 +52,6 @@
 }
 
 .food-nav__link {
-  display: block;
   padding-left: $gutter;
   @include flex-grow(1);
 }
@@ -71,7 +70,7 @@
 }
 .food-nav__link:hover .food-nav__link__start:before,
 %food-nav__link__start--glow:before {
-  width: 1em;
+  width: 1.25em;
   margin-right: 1px;
 }
 

@@ -130,6 +130,9 @@ h3,
 .h3,
 %h3 {
   font-size: $font-size--large;
+  @media (max-width: $bp-xs-sm) {
+    font-size: $font-size--large-sm;
+  }
 }
 
 h4,
