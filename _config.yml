@@ -2,7 +2,7 @@ title: Taiwanese Foods
 timezone: America/Los_Angeles
 url: https://justinjay.wang/taiwanese-foods/
 baseurl: /taiwanese-foods
-description: A pinyin alphabet book
+description: A pinyin alphabet book by Justin Jay Wang (王淳駿)
 collections:
   posts:
     title: Posts
