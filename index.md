@@ -1,6 +1,7 @@
 ---
-title: Foods from Taiwan
-subtitle: A pinyin alphabet book
+title: Taiwanese Foods
+subtitle: |-
+    A pinyin alphabet book by <a href="https://justinjay.wang">Justin Jay Wang (王淳駿)</a>
 layout: homepage
 # https://www.tastecooking.com/new-york-citys-taiwanese-food-boom-its-about-damn-time/
 # https://simple.wikipedia.org/wiki/Romanization
