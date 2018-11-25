@@ -38,7 +38,11 @@ grunt dev
 grunt
 ```
 
-Push to GitHub repo and have it automatically deploy.
+```
+JEKYLL_ENV=production bundle exec jekyll build
+```
+
+Upload files to justinjay.wang.
 
 ---
 ## To Do
