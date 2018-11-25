@@ -28,7 +28,7 @@ body {
   background: $color--bg;
 }
 
-@include selection($color--fg, $color--bg);
+@include selection($color--highlight, $color--fg);
 
 img,
 video,
