@@ -1,6 +1,6 @@
 {% assign letter = food.title %}
 <div class="col col-4 md-col-6 xs-col-12">
-  <a class="food-card" href="/#{{ letter }}">
+  <a class="food-card" href="{{ site.baseurl }}/#{{ letter }}">
     <div class="food-card__item food-card__item--letter">
       {% include letters/{{ letter }}.svg %}
     </div>
@@ -12,8 +12,8 @@
 
     <div class="food-card__item food-card__item--image">
       <div class="food-card__image js-lazy"
-        style="background-image: url('/uploads/{{ letter }}.png')"
-        data-src="/uploads/{{ letter }}.png"></div>
+        style="background-image: url('{{ site.baseurl }}/uploads/{{ letter }}.png')"
+        data-src="{{ site.baseurl }}/uploads/{{ letter }}.png"></div>
     </div>
   </a>
 </div>

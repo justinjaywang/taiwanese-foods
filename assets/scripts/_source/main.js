@@ -197,9 +197,9 @@ function scrollTo (destination, duration, easing, callback) {
 
 function updateUrl(url) {
   if (url) {
-    window.history.replaceState(null, null, '/#' + url);
+    window.history.replaceState(null, null, window.location.pathname + '#' + url);
   } else { // homepage
-    window.history.replaceState(null, null, '/');
+    window.history.replaceState(null, null, window.location.pathname);
   }
 }
 
