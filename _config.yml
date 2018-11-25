@@ -35,6 +35,7 @@ exclude:
 - README*
 - '.gitignore'
 - package.json
+- package-lock.json
 - node_modules
 - Gruntfile.js
 plugins:
