@@ -25,8 +25,8 @@
   @include flex;
   @include flex-direction(column);
   @include justify-content(space-between);
-  padding-top: $gutter;
-  padding-bottom: $gutter - 0.5rem;
+  padding-top: $gutter * 4;
+  padding-bottom: $gutter * 4 - 0.5rem;
   @media (max-width: $bp-hide-nav) {
     display: none;
   }
@@ -41,6 +41,10 @@
 .header__link {
   position: absolute;
   @extend %underline;
+  transition: color $duration--fast;
+  .body--homepage & {
+    color: $color--bg;
+  }
 }
 
 .header__link--left {
@@ -83,38 +87,21 @@
   opacity: 1;
 }
 
-.footer {
-  text-align: center;
-  margin-top: $v*2;
-  padding-bottom: $v*2;
-  @extend %h5;
-}
-
-.footer a {
-  @extend %underline;
-}
-
-.footer__section {
-  margin-top: $v*0.5;
-  margin-bottom: $v;
-}
-
-.footer__section__title {
-  margin-bottom: $v*0.333333;
-}
-
 .main {
   display: block;
 }
 
 .main--archive {
-  margin-top: $v*5;
-  margin-bottom: $v*5;
+  margin-top: $v*4;
+  margin-bottom: $v*4;
 }
 
 .main--homepage__header {
   position: relative;
   height: 100vh;
+  background-color: $color--fg;
+  color: $color--bg;
+  margin-bottom: $v*4;
 }
 
 .main--homepage__header__title {
@@ -124,33 +111,33 @@
   top: 50%;
   left: 0;
   right: 0;
-  @include transform(translateY(-50%));
-  max-width: 54em;
+  @include transform(translateY(-51.5%));
+  max-width: 48em;
 }
-
 
 .title {
   margin-bottom: $v*0.166667;
 }
 
-.food-post__banner-wrap {
-  background-color: $color--image-bg;
+.subtitle {
+  @extend %h4;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
 .food-post__banner {
   height: 0;
-  padding-bottom: 630px;
-  @media (max-width: 1120px) {
-    padding-bottom: 56.25%; // 9/16
+  padding-bottom: 675px;
+  @media (max-width: 1080px) {
+    padding-bottom: 62.5%; // 5/8
   }
   @media (max-width: $bp-xs-sm) {
-    padding-bottom: 62.5%; // 5/8
+    padding-bottom: 75%; // 3/4
   }
   @media (max-width: 414px) {
     padding-bottom: 100%;
   }
   @include contain;
-  margin-bottom: $v*2;
 }
 
 .food-post__header {
@@ -163,7 +150,7 @@
 }
 
 .food-post__footer {
-  padding-bottom: $v*5;
+  padding-bottom: $v*4;
 }
 
 .food-post__title {

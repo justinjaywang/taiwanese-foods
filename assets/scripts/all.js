@@ -30,7 +30,7 @@ var initStickyNav = function () {
   if (!nav) return;
 
   var firstPost = document.querySelectorAll('[data-monitor]')[0];
-  var firstPostwatcher = scrollMonitor.create(firstPost, 200);
+  var firstPostwatcher = scrollMonitor.create(firstPost, 140);
   firstPostwatcher.stateChange(firstPostListener);
   firstPostListener(null, firstPostwatcher);
 
@@ -39,7 +39,7 @@ var initStickyNav = function () {
       document.body.classList.add('js-is-sticky');
     } else {
       document.body.classList.remove('js-is-sticky');
-      removeActiveNav();
+      removeActivePost();
       updateUrl(null);
     }
   };
@@ -54,7 +54,7 @@ var initScrollMonitor = function () {
   var watchers = [];
   for (i = 0, l = items.length; i < l; i++) {
     var item = items[i];
-    var watcher = scrollMonitor.create(item, 200);
+    var watcher = scrollMonitor.create(item, 112);
     watchers[i] = watcher;
     watcher.stateChange(listener);
   }
@@ -64,26 +64,34 @@ var initScrollMonitor = function () {
 
   function listener(event, watcher) {
     if (watcher.isFullyInViewport) {
-      setActiveNav(watcher.watchItem.id);
+      setActivePost(watcher.watchItem.id);
       updateUrl(watcher.watchItem.id);
     }
   }
 };
 
-function setActiveNav(id) {
-  removeActiveNav();
+function setActivePost(id) {
+  removeActivePost();
   var activeLink = document.querySelector(".food-nav__link[href='#" + id + "']");
+  var activePost = document.querySelector(".food-post[id='" + id + "']");
   activeLink.classList.add('js-active');
+  activePost.classList.add('js-active');
   setTimeout(function() {
     activeLink.classList.remove('js-active');
   }, 750);
 }
 
-function removeActiveNav() {
+function removeActivePost() {
   var nav = document.querySelector('.js-nav');
   var navLinks = nav.querySelectorAll('.js-nav-link');
+  var i, l;
   for (i = 0, l = navLinks.length; i < l; i++) {
     navLinks[i].classList.remove('js-active');
+  }
+  var posts = document.querySelectorAll('.food-post');
+  var j, k;
+  for (j = 0, k = posts.length; j < k; j++) {
+    posts[j].classList.remove('js-active');
   }
 }
 
@@ -116,7 +124,7 @@ var initSmoothScroll = function () {
         500,
         'easeInOutQuart',
         function () {
-          setActiveNav(id);
+          setActivePost(id);
           updateUrl(id);
         }
       );
