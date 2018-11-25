@@ -4,7 +4,7 @@ pinyin: shizi
 # pinyin: shìzi
 chinese: 柿子
 resources: 
-- text: Sweet Taiwan Persimmons
+- text: Sweet Taiwan Persimmons (video)
   link: https://www.youtube.com/watch?v=Jq6s-mvAku4
 - text: Hsinpu Dried Persimmons
   link: https://www.goteamjosh.com/blog/weiweijia
