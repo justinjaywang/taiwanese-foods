@@ -24,9 +24,7 @@
   z-index: 1;
   @include flex;
   @include flex-direction(column);
-  @include justify-content(space-between);
-  padding-top: $gutter * 4;
-  padding-bottom: $gutter * 4 - 0.5rem;
+  @include justify-content(center);
   @media (max-width: $bp-hide-nav) {
     display: none;
   }
@@ -41,10 +39,6 @@
 .header__link {
   position: absolute;
   @extend %underline;
-  transition: color $duration--fast;
-  .body--homepage & {
-    color: $color--bg;
-  }
 }
 
 .header__link--left {
@@ -57,7 +51,8 @@
 
 .food-nav__link {
   padding-left: $gutter;
-  @include flex-grow(1);
+  padding-top: 0.15em;
+  padding-bottom: 0.15em;
 }
 
 .food-nav__link__start {
@@ -74,7 +69,7 @@
 }
 .food-nav__link:hover .food-nav__link__start:before,
 %food-nav__link__start--glow:before {
-  width: 1.25em;
+  width: 1.5em;
   margin-right: 1px;
 }
 
@@ -99,9 +94,6 @@
 .main--homepage__header {
   position: relative;
   height: 100vh;
-  background-color: $color--fg;
-  color: $color--bg;
-  margin-bottom: $v*4;
 }
 
 .main--homepage__header__title {
@@ -111,8 +103,22 @@
   top: 50%;
   left: 0;
   right: 0;
-  @include transform(translateY(-51.5%));
-  max-width: 48em;
+  @include transform(translateY(-53%));
+  // max-width: 48em;
+}
+
+.main--homepage__image {
+  position: absolute;
+  @include transform(translate(-50%, -50%));
+  top: 50%;
+  left: 50%;
+  z-index: -1;
+  width: 100vh;
+  @media (max-aspect-ratio: 1/1) {
+    width: 100vw;
+  }
+  max-width: 720px;
+  height: auto;
 }
 
 .title {
@@ -125,19 +131,23 @@
   padding-right: 1em;
 }
 
+.about {
+  padding-top: $v*2;
+  margin-bottom: $v*4;
+}
+
 .food-post__banner {
+  @include contain;
   height: 0;
-  padding-bottom: 675px;
-  @media (max-width: 1080px) {
+  background-color: $color--cover;
+  margin-bottom: $v*2;
+  padding-bottom: 640px;
+  @media (max-width: 1024px) {
     padding-bottom: 62.5%; // 5/8
   }
-  @media (max-width: $bp-xs-sm) {
+  @media (max-width: $bp-sm-md) {
     padding-bottom: 75%; // 3/4
   }
-  @media (max-width: 414px) {
-    padding-bottom: 100%;
-  }
-  @include contain;
 }
 
 .food-post__header {
@@ -146,7 +156,7 @@
 }
 
 .food-post__body {
-  margin-bottom: $v*2.25;
+  margin-bottom: $v*2;
 }
 
 .food-post__footer {

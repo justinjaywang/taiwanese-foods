@@ -28,9 +28,6 @@
       visibility: visible;
       transition: opacity $duration--fast, visibility 0s linear 0s;
     }
-    .header__link {
-      color: $color--fg;
-    }
   }
   .js-active {
     .food-nav__link__start {

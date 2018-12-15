@@ -24,7 +24,7 @@ var initStickyNav = function () {
   if (!nav) return;
 
   var firstPost = document.querySelectorAll('[data-monitor]')[0];
-  var firstPostwatcher = scrollMonitor.create(firstPost, 140);
+  var firstPostwatcher = scrollMonitor.create(firstPost, 240);
   firstPostwatcher.stateChange(firstPostListener);
   firstPostListener(null, firstPostwatcher);
 
