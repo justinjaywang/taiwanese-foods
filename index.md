@@ -8,6 +8,6 @@ layout: homepage
 # Pinyin is the international standard for the phonetic transcription of Chinese using roman script.
 ---
 
-Pinyin is a widely-used romanization system for transcribing Chinese. Each of its 21 initial letters is presented here with a corresponding Taiwanese food.
+Pinyin is a widely used romanization system for transcribing Chinese. Each of its 21 initial letters is presented here with a corresponding Taiwanese food.
 
 Influenced by the various people that have inhabited the island over the course of several centuries (most notably the Chinese, Japanese, and indigenous peoples), Taiwanese cuisine is a blend of styles and innovations. The foods showcased provide an overview of common ingredients and dishes.
