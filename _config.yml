@@ -1,8 +1,7 @@
 title: Taiwanese Foods
 timezone: America/Los_Angeles
-url: https://justinjay.wang/taiwanese-foods/
-baseurl: /taiwanese-foods
-description: A pinyin alphabetical list by Justin Jay Wang (王淳駿)
+url: https://taiwanesefoods.net
+description: An alphabetical guide by Justin Jay Wang (王淳駿)
 collections:
   posts:
     title: Posts
@@ -44,7 +43,7 @@ plugins:
 - jekyll-seo-tag
 twitter:
   username: justinjaywang
-social_image: /assets/images/beef-noodle-soup.jpg
+social_image: /assets/images/niurou-mian.jpg
 markdown: kramdown
 kramdown:
   input: GFM
