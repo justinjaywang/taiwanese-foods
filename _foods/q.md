@@ -7,7 +7,7 @@ resources:
 - text: Pacific saury
   link: https://en.wikipedia.org/wiki/Pacific_saury
 - text: "Sanma Shioyaki (recipe)"
-  link: https://kanakoskitchen.com/2009/11/17/sanma-shioyaki/
+  link: https://www.justonecookbook.com/sanma-shioyaki-salt-grilled-pacific-saury/
 - text: Braised saury (recipe)
   link: https://www.maangchi.com/recipe/kkongchi-jorim
 position: 13
